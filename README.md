@@ -288,19 +288,3 @@ yarn lerna publish --registry {private_registry_url} --message "chore: new relea
 where `{private_registry_url}` is the url of npm registry other than official one. You can skip this flag if you are using official registry.
 
 Thats all, new release of all packages tha have been changed since last release will be created and pushed to registry. Also new tags will be pushed to Github repository with corresponding changelog.
-
-
-# Docker
-
-It will allow to build Storybook as a Docker image and push it into our registry. It can be later started with following commands:
-
-master:
-
-```bash
-docker run --rm -p 8080:80/tcp registry.pdm.proximetry.com/ui-team/ui-elements:master
-```
-pull request (replace <PR_ID> with ID of pull request):
-
-```bash 
-docker run --rm -p 8080:80/tcp registry.pdm.proximetry.com/ui-team/ui-elements:pr<PR_ID>
-```
