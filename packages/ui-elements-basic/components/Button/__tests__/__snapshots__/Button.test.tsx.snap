@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-basic Components Button Should render with default props only 1`] = `
+.c0 {
+  font-size: .75em;
+  font-weight: bold;
+  outline: none;
+  text-align: center;
+  vertical-align: middle;
+  min-height: 35px;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 30px;
+  -webkit-transition: 100ms all ease-in-out;
+  transition: 100ms all ease-in-out;
+  white-space: nowrap;
+}
+
+.c0::-moz-focus-inner {
+  border: 0;
+}
+
+.c0 .icon-left {
+  margin: 0 5px 0 0;
+}
+
+.c0 .icon-right {
+  margin: 0 0 0 5px;
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`ui-elements-basic Components Button Should render with icons and text 1`] = `
+.c0 {
+  font-size: .75em;
+  font-weight: bold;
+  outline: none;
+  text-align: center;
+  vertical-align: middle;
+  min-height: 35px;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 30px;
+  -webkit-transition: 100ms all ease-in-out;
+  transition: 100ms all ease-in-out;
+  white-space: nowrap;
+}
+
+.c0::-moz-focus-inner {
+  border: 0;
+}
+
+.c0 .icon-left {
+  margin: 0 5px 0 0;
+}
+
+.c0 .icon-right {
+  margin: 0 0 0 5px;
+}
+
+<button
+  className="c0"
+>
+  <span
+    className="icon-left"
+  >
+    iconLeft
+  </span>
+  Button Primary Text
+  <span
+    className="icon-right"
+  >
+    iconRight
+  </span>
+</button>
+`;

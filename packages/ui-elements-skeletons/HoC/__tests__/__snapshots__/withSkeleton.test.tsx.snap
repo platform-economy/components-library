@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-skeletons HoC withSkeleton should render base component (from static property) 1`] = `
+<div>
+  ComponentA
+</div>
+`;
+
+exports[`ui-elements-skeletons HoC withSkeleton should render default component 1`] = `
+<div>
+  ComponentA
+</div>
+`;
+
+exports[`ui-elements-skeletons HoC withSkeleton should render skeleton component (from static property) 1`] = `
+<div>
+  ComponentB
+</div>
+`;
+
+exports[`ui-elements-skeletons HoC withSkeleton should render skeleton component 1`] = `
+<div>
+  ComponentB
+</div>
+`;
+
+exports[`ui-elements-skeletons HoC withSkeleton should switch skeleton component 1`] = `
+<div>
+  ComponentC
+</div>
+`;
+
+exports[`ui-elements-skeletons HoC withSkeleton should switch skeleton component 2`] = `
+<div>
+  ComponentA
+</div>
+`;

@@ -1,0 +1,453 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-basic Components Dropdown should render (isMobile: false, dropOnHover: false) 1`] = `
+.c0 {
+  position: relative;
+  display: inline-block;
+}
+
+.c0.mobile {
+  display: block;
+}
+
+.c0 .c1 .inlineWrapper {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  cursor: pointer;
+}
+
+.c0 .c1 .cover {
+  -webkit-flex: 1 1 0px;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0px;
+}
+
+.c0 .c1 .icon {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-left: 1em;
+}
+
+.c0.mobile .c1 {
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0.drop-on-hover .c1 {
+  cursor: default;
+}
+
+.c0 .c2 {
+  position: absolute;
+  overflow: hidden;
+  -webkit-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: top;
+  -ms-transform-origin: top;
+  transform-origin: top;
+  -webkit-transition: -webkit-transform 0.26s,max-height 0.26s;
+  -webkit-transition: transform 0.26s,max-height 0.26s;
+  transition: transform 0.26s,max-height 0.26s;
+}
+
+.c0 .c2.left {
+  left: 0;
+}
+
+.c0 .c2.right {
+  right: 0;
+}
+
+.c0 .c2.center {
+  left: 50%;
+  -webkit-transform: scaleY(0) translateX(-50%);
+  -ms-transform: scaleY(0) translateX(-50%);
+  transform: scaleY(0) translateX(-50%);
+}
+
+.c0 .c2.justify {
+  left: 0;
+  right: 0;
+}
+
+.c0 .c2.opened {
+  -webkit-transform: scaleY(1);
+  -ms-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+.c0 .c2.opened.center {
+  -webkit-transform: scaleY(1) translateX(-50%);
+  -ms-transform: scaleY(1) translateX(-50%);
+  transform: scaleY(1) translateX(-50%);
+}
+
+.c0.mobile .c2 {
+  position: relative;
+  max-height: 0;
+  width: 100%;
+}
+
+.c0.mobile .c2.opened {
+  max-height: 100%;
+}
+
+<div
+  className="Dropdown c0"
+>
+  <div />
+</div>
+`;
+
+exports[`ui-elements-basic Components Dropdown should render (isMobile: false, dropOnHover: true) 1`] = `
+.c0 {
+  position: relative;
+  display: inline-block;
+}
+
+.c0.mobile {
+  display: block;
+}
+
+.c0 .c1 .inlineWrapper {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  cursor: pointer;
+}
+
+.c0 .c1 .cover {
+  -webkit-flex: 1 1 0px;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0px;
+}
+
+.c0 .c1 .icon {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-left: 1em;
+}
+
+.c0.mobile .c1 {
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0.drop-on-hover .c1 {
+  cursor: default;
+}
+
+.c0 .c2 {
+  position: absolute;
+  overflow: hidden;
+  -webkit-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: top;
+  -ms-transform-origin: top;
+  transform-origin: top;
+  -webkit-transition: -webkit-transform 0.26s,max-height 0.26s;
+  -webkit-transition: transform 0.26s,max-height 0.26s;
+  transition: transform 0.26s,max-height 0.26s;
+}
+
+.c0 .c2.left {
+  left: 0;
+}
+
+.c0 .c2.right {
+  right: 0;
+}
+
+.c0 .c2.center {
+  left: 50%;
+  -webkit-transform: scaleY(0) translateX(-50%);
+  -ms-transform: scaleY(0) translateX(-50%);
+  transform: scaleY(0) translateX(-50%);
+}
+
+.c0 .c2.justify {
+  left: 0;
+  right: 0;
+}
+
+.c0 .c2.opened {
+  -webkit-transform: scaleY(1);
+  -ms-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+.c0 .c2.opened.center {
+  -webkit-transform: scaleY(1) translateX(-50%);
+  -ms-transform: scaleY(1) translateX(-50%);
+  transform: scaleY(1) translateX(-50%);
+}
+
+.c0.mobile .c2 {
+  position: relative;
+  max-height: 0;
+  width: 100%;
+}
+
+.c0.mobile .c2.opened {
+  max-height: 100%;
+}
+
+<div
+  className="Dropdown c0 drop-on-hover"
+>
+  <div />
+</div>
+`;
+
+exports[`ui-elements-basic Components Dropdown should render (isMobile: true, dropOnHover: false) 1`] = `
+.c0 {
+  position: relative;
+  display: inline-block;
+}
+
+.c0.mobile {
+  display: block;
+}
+
+.c0 .c1 .inlineWrapper {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  cursor: pointer;
+}
+
+.c0 .c1 .cover {
+  -webkit-flex: 1 1 0px;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0px;
+}
+
+.c0 .c1 .icon {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-left: 1em;
+}
+
+.c0.mobile .c1 {
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0.drop-on-hover .c1 {
+  cursor: default;
+}
+
+.c0 .c2 {
+  position: absolute;
+  overflow: hidden;
+  -webkit-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: top;
+  -ms-transform-origin: top;
+  transform-origin: top;
+  -webkit-transition: -webkit-transform 0.26s,max-height 0.26s;
+  -webkit-transition: transform 0.26s,max-height 0.26s;
+  transition: transform 0.26s,max-height 0.26s;
+}
+
+.c0 .c2.left {
+  left: 0;
+}
+
+.c0 .c2.right {
+  right: 0;
+}
+
+.c0 .c2.center {
+  left: 50%;
+  -webkit-transform: scaleY(0) translateX(-50%);
+  -ms-transform: scaleY(0) translateX(-50%);
+  transform: scaleY(0) translateX(-50%);
+}
+
+.c0 .c2.justify {
+  left: 0;
+  right: 0;
+}
+
+.c0 .c2.opened {
+  -webkit-transform: scaleY(1);
+  -ms-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+.c0 .c2.opened.center {
+  -webkit-transform: scaleY(1) translateX(-50%);
+  -ms-transform: scaleY(1) translateX(-50%);
+  transform: scaleY(1) translateX(-50%);
+}
+
+.c0.mobile .c2 {
+  position: relative;
+  max-height: 0;
+  width: 100%;
+}
+
+.c0.mobile .c2.opened {
+  max-height: 100%;
+}
+
+<div
+  className="Dropdown c0 mobile"
+>
+  <div />
+</div>
+`;
+
+exports[`ui-elements-basic Components Dropdown should render (isMobile: true, dropOnHover: true) 1`] = `
+.c0 {
+  position: relative;
+  display: inline-block;
+}
+
+.c0.mobile {
+  display: block;
+}
+
+.c0 .c1 .inlineWrapper {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  cursor: pointer;
+}
+
+.c0 .c1 .cover {
+  -webkit-flex: 1 1 0px;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0px;
+}
+
+.c0 .c1 .icon {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-left: 1em;
+}
+
+.c0.mobile .c1 {
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0.drop-on-hover .c1 {
+  cursor: default;
+}
+
+.c0 .c2 {
+  position: absolute;
+  overflow: hidden;
+  -webkit-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: top;
+  -ms-transform-origin: top;
+  transform-origin: top;
+  -webkit-transition: -webkit-transform 0.26s,max-height 0.26s;
+  -webkit-transition: transform 0.26s,max-height 0.26s;
+  transition: transform 0.26s,max-height 0.26s;
+}
+
+.c0 .c2.left {
+  left: 0;
+}
+
+.c0 .c2.right {
+  right: 0;
+}
+
+.c0 .c2.center {
+  left: 50%;
+  -webkit-transform: scaleY(0) translateX(-50%);
+  -ms-transform: scaleY(0) translateX(-50%);
+  transform: scaleY(0) translateX(-50%);
+}
+
+.c0 .c2.justify {
+  left: 0;
+  right: 0;
+}
+
+.c0 .c2.opened {
+  -webkit-transform: scaleY(1);
+  -ms-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+.c0 .c2.opened.center {
+  -webkit-transform: scaleY(1) translateX(-50%);
+  -ms-transform: scaleY(1) translateX(-50%);
+  transform: scaleY(1) translateX(-50%);
+}
+
+.c0.mobile .c2 {
+  position: relative;
+  max-height: 0;
+  width: 100%;
+}
+
+.c0.mobile .c2.opened {
+  max-height: 100%;
+}
+
+<div
+  className="Dropdown c0 mobile drop-on-hover"
+>
+  <div />
+</div>
+`;

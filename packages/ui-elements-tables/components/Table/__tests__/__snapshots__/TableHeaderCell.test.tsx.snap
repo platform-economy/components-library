@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-tables Components TableHeaderCell Should render as active 1`] = `
+.c0 {
+  -webkit-transition: padding .5s;
+  transition: padding .5s;
+  padding: 22px 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: left;
+}
+
+.c0.c0:first-child {
+  padding-left: 30px;
+}
+
+.c0.c0:last-child {
+  padding-right: 30px;
+}
+
+.c0.active {
+  color: #active;
+}
+
+.c0.short {
+  width: 1px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.c0.clickable:hover {
+  color: #active_hovered;
+  cursor: pointer;
+}
+
+<th
+  className="active c0"
+  onClick={[Function]}
+/>
+`;
+
+exports[`ui-elements-tables Components TableHeaderCell Should render icon 1`] = `
+.c0 {
+  -webkit-transition: padding .5s;
+  transition: padding .5s;
+  padding: 22px 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: left;
+}
+
+.c0.c0:first-child {
+  padding-left: 30px;
+}
+
+.c0.c0:last-child {
+  padding-right: 30px;
+}
+
+.c0.active {
+  color: #active;
+}
+
+.c0.short {
+  width: 1px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.c0.clickable:hover {
+  color: #active_hovered;
+  cursor: pointer;
+}
+
+.c1 {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: .75em;
+  vertical-align: top;
+}
+
+<th
+  className="active c0"
+  onClick={[Function]}
+>
+  <div
+    className="c1"
+  >
+    ASCIcon
+  </div>
+</th>
+`;
+
+exports[`ui-elements-tables Components TableHeaderCell Should render without throwing an exception 1`] = `
+.c0 {
+  -webkit-transition: padding .5s;
+  transition: padding .5s;
+  padding: 22px 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: left;
+}
+
+.c0.c0:first-child {
+  padding-left: 30px;
+}
+
+.c0.c0:last-child {
+  padding-right: 30px;
+}
+
+.c0.active {
+  color: #active;
+}
+
+.c0.short {
+  width: 1px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.c0.clickable:hover {
+  color: #active_hovered;
+  cursor: pointer;
+}
+
+<th
+  className="c0"
+  onClick={[Function]}
+/>
+`;

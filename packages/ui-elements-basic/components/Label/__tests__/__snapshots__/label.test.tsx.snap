@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-basic Components Label should render with default properties only 1`] = `
+.c0 {
+  display: inline;
+  color: #00aaff;
+  font-size: .938em;
+  font-weight: bold;
+  padding: 6px 24px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0 .staticText {
+  color: #000;
+}
+
+<div
+  id="NamespacesConsumer"
+>
+  <label
+    className="c0"
+  >
+    <span
+      className="staticText"
+    >
+      staticLabel
+      : 
+    </span>
+    Test Title
+  </label>
+</div>
+`;

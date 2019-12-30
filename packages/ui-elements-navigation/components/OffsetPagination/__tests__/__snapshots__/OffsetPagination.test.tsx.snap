@@ -1,0 +1,645 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-navigation Components OffsetPagination should render first page 1`] = `
+.c0 {
+  display: inline-block;
+  color: #text;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 .nav,
+.c0 .page {
+  display: inline-block;
+  width: 3em;
+  padding: 3px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-top: 2px solid transparent;
+}
+
+.c0 .nav:hover,
+.c0 .page:hover {
+  color: #active_hovered;
+}
+
+.c0 .nav {
+  vertical-align: middle;
+}
+
+.c0 .page {
+  font-weight: bold;
+  text-align: center;
+}
+
+.c0 .page.current {
+  cursor: default;
+  color: #active;
+  border-top-color: #active;
+}
+
+.c0 .page.current:hover {
+  cursor: default;
+  color: #active_hovered;
+  border-top-color: #active_hovered;
+}
+
+.c0 .nav-prev,
+.c0 .nav-first {
+  text-align: left;
+}
+
+.c0 .nav-next,
+.c0 .nav-last {
+  text-align: right;
+}
+
+.c0 .nav.disabled {
+  cursor: default;
+  color: #inactive;
+}
+
+<div
+  className="OffsetPagination c0"
+>
+  <div
+    className="nav nav-prev disabled"
+  >
+    &lt;
+  </div>
+  <div
+    className="page page-1 current"
+    onClick={[Function]}
+  >
+    1
+  </div>
+  <div
+    className="page page-2"
+    onClick={[Function]}
+  >
+    2
+  </div>
+  <div
+    className="page page-3"
+    onClick={[Function]}
+  >
+    3
+  </div>
+  <div
+    className="page page-4"
+    onClick={[Function]}
+  >
+    ...
+  </div>
+  <div
+    className="page page-20"
+    onClick={[Function]}
+  >
+    20
+  </div>
+  <div
+    className="nav nav-next"
+    onClick={[Function]}
+  >
+    &gt;
+  </div>
+</div>
+`;
+
+exports[`ui-elements-navigation Components OffsetPagination should render last page 1`] = `
+.c0 {
+  display: inline-block;
+  color: #text;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 .nav,
+.c0 .page {
+  display: inline-block;
+  width: 3em;
+  padding: 3px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-top: 2px solid transparent;
+}
+
+.c0 .nav:hover,
+.c0 .page:hover {
+  color: #active_hovered;
+}
+
+.c0 .nav {
+  vertical-align: middle;
+}
+
+.c0 .page {
+  font-weight: bold;
+  text-align: center;
+}
+
+.c0 .page.current {
+  cursor: default;
+  color: #active;
+  border-top-color: #active;
+}
+
+.c0 .page.current:hover {
+  cursor: default;
+  color: #active_hovered;
+  border-top-color: #active_hovered;
+}
+
+.c0 .nav-prev,
+.c0 .nav-first {
+  text-align: left;
+}
+
+.c0 .nav-next,
+.c0 .nav-last {
+  text-align: right;
+}
+
+.c0 .nav.disabled {
+  cursor: default;
+  color: #inactive;
+}
+
+<div
+  className="OffsetPagination c0"
+>
+  <div
+    className="nav nav-prev"
+    onClick={[Function]}
+  >
+    &lt;
+  </div>
+  <div
+    className="page page-1"
+    onClick={[Function]}
+  >
+    1
+  </div>
+  <div
+    className="page page-17"
+    onClick={[Function]}
+  >
+    ...
+  </div>
+  <div
+    className="page page-18"
+    onClick={[Function]}
+  >
+    18
+  </div>
+  <div
+    className="page page-19"
+    onClick={[Function]}
+  >
+    19
+  </div>
+  <div
+    className="page page-20 current"
+    onClick={[Function]}
+  >
+    20
+  </div>
+  <div
+    className="nav nav-next disabled"
+  >
+    &gt;
+  </div>
+</div>
+`;
+
+exports[`ui-elements-navigation Components OffsetPagination should render middle page 1`] = `
+.c0 {
+  display: inline-block;
+  color: #text;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 .nav,
+.c0 .page {
+  display: inline-block;
+  width: 3em;
+  padding: 3px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-top: 2px solid transparent;
+}
+
+.c0 .nav:hover,
+.c0 .page:hover {
+  color: #active_hovered;
+}
+
+.c0 .nav {
+  vertical-align: middle;
+}
+
+.c0 .page {
+  font-weight: bold;
+  text-align: center;
+}
+
+.c0 .page.current {
+  cursor: default;
+  color: #active;
+  border-top-color: #active;
+}
+
+.c0 .page.current:hover {
+  cursor: default;
+  color: #active_hovered;
+  border-top-color: #active_hovered;
+}
+
+.c0 .nav-prev,
+.c0 .nav-first {
+  text-align: left;
+}
+
+.c0 .nav-next,
+.c0 .nav-last {
+  text-align: right;
+}
+
+.c0 .nav.disabled {
+  cursor: default;
+  color: #inactive;
+}
+
+<div
+  className="OffsetPagination c0"
+>
+  <div
+    className="nav nav-prev"
+    onClick={[Function]}
+  >
+    &lt;
+  </div>
+  <div
+    className="page page-1"
+    onClick={[Function]}
+  >
+    1
+  </div>
+  <div
+    className="page page-8"
+    onClick={[Function]}
+  >
+    ...
+  </div>
+  <div
+    className="page page-9"
+    onClick={[Function]}
+  >
+    9
+  </div>
+  <div
+    className="page page-10"
+    onClick={[Function]}
+  >
+    10
+  </div>
+  <div
+    className="page page-11 current"
+    onClick={[Function]}
+  >
+    11
+  </div>
+  <div
+    className="page page-12"
+    onClick={[Function]}
+  >
+    12
+  </div>
+  <div
+    className="page page-13"
+    onClick={[Function]}
+  >
+    13
+  </div>
+  <div
+    className="page page-14"
+    onClick={[Function]}
+  >
+    ...
+  </div>
+  <div
+    className="page page-20"
+    onClick={[Function]}
+  >
+    20
+  </div>
+  <div
+    className="nav nav-next"
+    onClick={[Function]}
+  >
+    &gt;
+  </div>
+</div>
+`;
+
+exports[`ui-elements-navigation Components OffsetPagination should render with custom icons 1`] = `
+.c0 {
+  display: inline-block;
+  color: #text;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 .nav,
+.c0 .page {
+  display: inline-block;
+  width: 3em;
+  padding: 3px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-top: 2px solid transparent;
+}
+
+.c0 .nav:hover,
+.c0 .page:hover {
+  color: #active_hovered;
+}
+
+.c0 .nav {
+  vertical-align: middle;
+}
+
+.c0 .page {
+  font-weight: bold;
+  text-align: center;
+}
+
+.c0 .page.current {
+  cursor: default;
+  color: #active;
+  border-top-color: #active;
+}
+
+.c0 .page.current:hover {
+  cursor: default;
+  color: #active_hovered;
+  border-top-color: #active_hovered;
+}
+
+.c0 .nav-prev,
+.c0 .nav-first {
+  text-align: left;
+}
+
+.c0 .nav-next,
+.c0 .nav-last {
+  text-align: right;
+}
+
+.c0 .nav.disabled {
+  cursor: default;
+  color: #inactive;
+}
+
+<div
+  className="OffsetPagination c0"
+>
+  <div
+    className="nav nav-prev"
+    onClick={[Function]}
+  >
+    <div>
+      &lt;
+    </div>
+  </div>
+  <div
+    className="page page-1"
+    onClick={[Function]}
+  >
+    1
+  </div>
+  <div
+    className="page page-8"
+    onClick={[Function]}
+  >
+    ...
+  </div>
+  <div
+    className="page page-9"
+    onClick={[Function]}
+  >
+    9
+  </div>
+  <div
+    className="page page-10"
+    onClick={[Function]}
+  >
+    10
+  </div>
+  <div
+    className="page page-11 current"
+    onClick={[Function]}
+  >
+    11
+  </div>
+  <div
+    className="page page-12"
+    onClick={[Function]}
+  >
+    12
+  </div>
+  <div
+    className="page page-13"
+    onClick={[Function]}
+  >
+    13
+  </div>
+  <div
+    className="page page-14"
+    onClick={[Function]}
+  >
+    ...
+  </div>
+  <div
+    className="page page-20"
+    onClick={[Function]}
+  >
+    20
+  </div>
+  <div
+    className="nav nav-next"
+    onClick={[Function]}
+  >
+    <div>
+      &gt;
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ui-elements-navigation Components OffsetPagination should render with first/last buttons 1`] = `
+.c0 {
+  display: inline-block;
+  color: #text;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 .nav,
+.c0 .page {
+  display: inline-block;
+  width: 3em;
+  padding: 3px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-top: 2px solid transparent;
+}
+
+.c0 .nav:hover,
+.c0 .page:hover {
+  color: #active_hovered;
+}
+
+.c0 .nav {
+  vertical-align: middle;
+}
+
+.c0 .page {
+  font-weight: bold;
+  text-align: center;
+}
+
+.c0 .page.current {
+  cursor: default;
+  color: #active;
+  border-top-color: #active;
+}
+
+.c0 .page.current:hover {
+  cursor: default;
+  color: #active_hovered;
+  border-top-color: #active_hovered;
+}
+
+.c0 .nav-prev,
+.c0 .nav-first {
+  text-align: left;
+}
+
+.c0 .nav-next,
+.c0 .nav-last {
+  text-align: right;
+}
+
+.c0 .nav.disabled {
+  cursor: default;
+  color: #inactive;
+}
+
+<div
+  className="OffsetPagination c0"
+>
+  <div
+    className="nav nav-first"
+    onClick={[Function]}
+  >
+    <div>
+      &lt;&lt;
+    </div>
+  </div>
+  <div
+    className="nav nav-prev"
+    onClick={[Function]}
+  >
+    <div>
+      &lt;
+    </div>
+  </div>
+  <div
+    className="page page-1"
+    onClick={[Function]}
+  >
+    1
+  </div>
+  <div
+    className="page page-8"
+    onClick={[Function]}
+  >
+    ...
+  </div>
+  <div
+    className="page page-9"
+    onClick={[Function]}
+  >
+    9
+  </div>
+  <div
+    className="page page-10"
+    onClick={[Function]}
+  >
+    10
+  </div>
+  <div
+    className="page page-11 current"
+    onClick={[Function]}
+  >
+    11
+  </div>
+  <div
+    className="page page-12"
+    onClick={[Function]}
+  >
+    12
+  </div>
+  <div
+    className="page page-13"
+    onClick={[Function]}
+  >
+    13
+  </div>
+  <div
+    className="page page-14"
+    onClick={[Function]}
+  >
+    ...
+  </div>
+  <div
+    className="page page-20"
+    onClick={[Function]}
+  >
+    20
+  </div>
+  <div
+    className="nav nav-next"
+    onClick={[Function]}
+  >
+    <div>
+      &gt;
+    </div>
+  </div>
+  <div
+    className="nav nav-last"
+    onClick={[Function]}
+  >
+    <div>
+      &gt;&gt;
+    </div>
+  </div>
+</div>
+`;

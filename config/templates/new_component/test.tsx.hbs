@@ -1,0 +1,25 @@
+import * as React from 'react';
+import * as TestRenderer from 'react-test-renderer';
+/*
+A set of utilities for testing Styled Components with Jest.
+This package improves the snapshot testing experience and
+provides a brand new matcher to make expectations on the style rules.
+*/
+import 'jest-styled-components';
+
+// Component
+import { {{capitalize component_name}} } from '../index';
+
+describe('{{lowercase package_name}}', () => {
+  describe('Components', () => {
+    describe('{{capitalize component_name}}', () => {
+
+      it('should render with default state', () => {
+        const tree = TestRenderer
+          .create(<{{capitalize component_name}} />)
+          .toJSON();
+        expect(tree).toMatchSnapshot();
+      });
+    });
+  });
+});

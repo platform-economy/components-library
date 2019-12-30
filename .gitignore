@@ -1,0 +1,13 @@
+.idea
+.vscode
+node_modules
+coverage
+.DS_store
+.rpt2_cache
+.cache
+.temp
+.tmp
+npm-debug.log
+*.log
+.log
+**/dist

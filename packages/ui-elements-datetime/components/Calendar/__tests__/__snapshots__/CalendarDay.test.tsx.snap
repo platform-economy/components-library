@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-datetime Components CalendarDay should render: as current day 1`] = `
+<td
+  className="CalendarDay day day-wed current current-month"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  12
+</td>
+`;
+
+exports[`ui-elements-datetime Components CalendarDay should render: as disabled 1`] = `
+<td
+  className="CalendarDay day day-wed disabled current-month"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  12
+</td>
+`;
+
+exports[`ui-elements-datetime Components CalendarDay should render: as selection range end 1`] = `
+<td
+  className="CalendarDay day day-wed selected current-month selection-end"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  12
+</td>
+`;
+
+exports[`ui-elements-datetime Components CalendarDay should render: as selection range span 1`] = `
+<td
+  className="CalendarDay day day-wed selected current-month selection-span"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  12
+</td>
+`;
+
+exports[`ui-elements-datetime Components CalendarDay should render: as selection range start 1`] = `
+<td
+  className="CalendarDay day day-wed selected current-month selection-start"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  12
+</td>
+`;
+
+exports[`ui-elements-datetime Components CalendarDay should render: as single selection 1`] = `
+<td
+  className="CalendarDay day day-wed selected current-month selection-single"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  12
+</td>
+`;
+
+exports[`ui-elements-datetime Components CalendarDay should render: default 1`] = `
+<td
+  className="CalendarDay day day-wed current-month"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  12
+</td>
+`;

@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-basic Components InputGroup should render with default state 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 35px;
+  background-color: transparent;
+}
+
+.c0 * {
+  max-height: 100%;
+}
+
+<div
+  className="InputGroup c0"
+/>
+`;
+
+exports[`ui-elements-basic Components InputGroup should render with mocked components inside 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 35px;
+  background-color: transparent;
+}
+
+.c0 * {
+  max-height: 100%;
+}
+
+<div
+  className="InputGroup c0"
+>
+  <input
+    type="text"
+  />
+  <button>
+    Button
+  </button>
+</div>
+`;

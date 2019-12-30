@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-layout Components ModalDialog should render all properties 1`] = `
+.c0 {
+  width: 680px;
+  height: 733px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.5);
+  background-color: #surface;
+  position: relative;
+  padding: 10px;
+}
+
+.c1 {
+  color: #text_inverted;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  -webkit-letter-spacing: -0.43;
+  -moz-letter-spacing: -0.43;
+  -ms-letter-spacing: -0.43;
+  letter-spacing: -0.43;
+  top: 1em;
+  position: absolute;
+  right: 1.5em;
+}
+
+.c1:hover {
+  color: #active_hovered;
+  cursor: pointer;
+}
+
+.c2 {
+  padding-top: 12px;
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  -webkit-letter-spacing: -0.43px;
+  -moz-letter-spacing: -0.43px;
+  -ms-letter-spacing: -0.43px;
+  letter-spacing: -0.43px;
+  text-align: center;
+  color: #text;
+}
+
+.c3 {
+  font-size: .875em;
+  font-weight: normal;
+  color: white;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  -webkit-letter-spacing: -0.43px;
+  -moz-letter-spacing: -0.43px;
+  -ms-letter-spacing: -0.43px;
+  letter-spacing: -0.43px;
+  text-align: center;
+  margin-top: -3px;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  color: #text;
+}
+
+<div
+  className="c0"
+>
+  <header>
+    <div
+      className="c1"
+    >
+      close-icon
+    </div>
+    <h1
+      className="c2"
+    >
+      Title
+    </h1>
+    <h2
+      className="c3"
+    >
+      Subtitle
+    </h2>
+  </header>
+  <section />
+</div>
+`;
+
+exports[`ui-elements-layout Components ModalDialog should render with default state 1`] = `
+.c0 {
+  width: 680px;
+  height: 733px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.5);
+  background-color: #surface;
+  position: relative;
+  padding: 10px;
+}
+
+.c1 {
+  color: #text_inverted;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  -webkit-letter-spacing: -0.43;
+  -moz-letter-spacing: -0.43;
+  -ms-letter-spacing: -0.43;
+  letter-spacing: -0.43;
+  top: 1em;
+  position: absolute;
+  right: 1.5em;
+}
+
+.c1:hover {
+  color: #active_hovered;
+  cursor: pointer;
+}
+
+<div
+  className="c0"
+>
+  <header>
+    <div
+      className="c1"
+    >
+      Close icon.
+    </div>
+  </header>
+  <section />
+</div>
+`;
+
+exports[`ui-elements-layout Components ModalDialog should render without close icon 1`] = `
+.c0 {
+  width: 680px;
+  height: 733px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.5);
+  background-color: #surface;
+  position: relative;
+  padding: 10px;
+}
+
+<div
+  className="c0"
+>
+  <header />
+  <section />
+</div>
+`;

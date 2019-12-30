@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-skeletons Components Basic should render with default properties only 1`] = `
+.c0 {
+  background: #aaa;
+  width: 400px;
+  height: 40px;
+  -webkit-animation: 2s ckwiNC linear infinite 0s;
+  animation: 2s ckwiNC linear infinite 0s;
+}
+
+<div
+  className="c0"
+/>
+`;

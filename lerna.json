@@ -1,0 +1,14 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "npmClient": "yarn",
+  "version": "independent",
+  "command": {
+    "publish": {
+      "registry": "https://npm.pdmbuilds.proximetry.com",
+      "conventionalCommits": true,
+      "message": "chore: publish"
+    }
+  }
+}

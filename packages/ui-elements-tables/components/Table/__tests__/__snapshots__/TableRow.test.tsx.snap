@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-tables Components TableRow Should render without throwing an exception 1`] = `
+tbody > .c0:hover {
+  background-color: inherit;
+  cursor: inherit;
+}
+
+<tr
+  className="c0"
+/>
+`;

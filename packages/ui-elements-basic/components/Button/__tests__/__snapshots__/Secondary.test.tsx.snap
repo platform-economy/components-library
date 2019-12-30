@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-basic Components Button.Secondary Should render with default props only 1`] = `
+.c1 {
+  font-size: .75em;
+  font-weight: bold;
+  outline: none;
+  text-align: center;
+  vertical-align: middle;
+  min-height: 35px;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 30px;
+  -webkit-transition: 100ms all ease-in-out;
+  transition: 100ms all ease-in-out;
+  white-space: nowrap;
+}
+
+.c1::-moz-focus-inner {
+  border: 0;
+}
+
+.c1 .icon-left {
+  margin: 0 5px 0 0;
+}
+
+.c1 .icon-right {
+  margin: 0 0 0 5px;
+}
+
+.c0 {
+  color: #text;
+  background-color: transparent;
+  border: 2px solid #text_inverted;
+  padding: 5px 28px;
+}
+
+.c0:hover,
+.c0:focus {
+  box-shadow: 0 2px 4px 0 #shadow;
+  border-color: #text;
+  cursor: pointer;
+}
+
+.c0:active {
+  box-shadow: 0 2px 4px 0 #shadow;
+  border-color: #active_lowered;
+}
+
+.c0:disabled {
+  color: #inactive;
+  border-color: #inactive;
+  cursor: not-allowed;
+}
+
+<button
+  className="c0 c1"
+/>
+`;

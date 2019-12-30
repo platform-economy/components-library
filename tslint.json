@@ -1,0 +1,15 @@
+{
+  "extends": ["tslint-react", "tslint-config-airbnb"],
+  "rules": {
+    "variable-name": [true, "ban-keywords", "check-format", "allow-pascal-case"],
+    "import-name": false,
+    "jsx-no-multiline-js": false,
+    "no-boolean-literal-compare": true,
+    "no-any": true
+  },
+  "linterOptions": {
+    "exclude": [
+        "packages/**/*.json"
+    ]
+  }
+}

@@ -1,0 +1,307 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-basic Components TextInput renders conditional theme color based on given props 1`] = `
+.c0 {
+  font-size: inherit;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+  height: 35px;
+  box-shadow: none;
+  background-color: transparent;
+  color: #text;
+  cursor: text;
+  border: none;
+  margin: 0;
+  padding: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  border-bottom: 2px solid #text_inverted;
+}
+
+.c0:focus {
+  border-bottom: 2px solid #active;
+  outline: transparent;
+}
+
+.c0:invalid {
+  border-bottom: 2px solid #negative;
+  outline: transparent;
+}
+
+.c0 svg,
+.c0 i {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0 10px;
+}
+
+.c0 + i {
+  font-size: 1em;
+  position: absolute;
+  top: 9px;
+  right: 10px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  color: #text_inverted;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.c0:placeholder-shown + i {
+  cursor: text;
+  pointer-events: none;
+  opacity: 0;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.c0 + i:hover {
+  color: #text;
+}
+
+@media screen and (min-width:414px) {
+  .c0::-webkit-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c0::-moz-placeholder {
+    font-size: .875em;
+  }
+
+  .c0:-ms-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c0::-webkit-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c0::-moz-placeholder {
+    font-size: .875em;
+  }
+
+  .c0:-ms-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c0::placeholder {
+    font-size: .875em;
+  }
+}
+
+<input
+  className="c0"
+/>
+`;
+
+exports[`ui-elements-basic Components TextInput should render as a text input with all the optional properties 1`] = `
+.c0 {
+  font-size: inherit;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+  height: 35px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.23);
+  background-color: #foreground;
+  color: #text;
+  cursor: text;
+  border: none;
+  margin: 0;
+  padding: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  border-bottom: 2px solid transparent;
+}
+
+.c0:focus {
+  border-bottom: 2px solid #active;
+  outline: transparent;
+}
+
+.c0:invalid {
+  border-bottom: 2px solid #negative;
+  outline: transparent;
+}
+
+.c0 svg,
+.c0 i {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0 10px;
+}
+
+.c0 + i {
+  font-size: 1em;
+  position: absolute;
+  top: 9px;
+  right: 10px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  color: #text_inverted;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.c0:placeholder-shown + i {
+  cursor: text;
+  pointer-events: none;
+  opacity: 0;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.c0 + i:hover {
+  color: #text;
+}
+
+@media screen and (min-width:414px) {
+  .c0::-webkit-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c0::-moz-placeholder {
+    font-size: .875em;
+  }
+
+  .c0:-ms-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c0::-webkit-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c0::-moz-placeholder {
+    font-size: .875em;
+  }
+
+  .c0:-ms-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c0::placeholder {
+    font-size: .875em;
+  }
+}
+
+<input
+  className="c0"
+  placeholder="test placeholder"
+  type="text"
+  value="test"
+/>
+`;
+
+exports[`ui-elements-basic Components TextInput should render with default state 1`] = `
+.c0 {
+  font-size: inherit;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+  height: 35px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.23);
+  background-color: #foreground;
+  color: #text;
+  cursor: text;
+  border: none;
+  margin: 0;
+  padding: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  border-bottom: 2px solid transparent;
+}
+
+.c0:focus {
+  border-bottom: 2px solid #active;
+  outline: transparent;
+}
+
+.c0:invalid {
+  border-bottom: 2px solid #negative;
+  outline: transparent;
+}
+
+.c0 svg,
+.c0 i {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0 10px;
+}
+
+.c0 + i {
+  font-size: 1em;
+  position: absolute;
+  top: 9px;
+  right: 10px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  color: #text_inverted;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.c0:placeholder-shown + i {
+  cursor: text;
+  pointer-events: none;
+  opacity: 0;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.c0 + i:hover {
+  color: #text;
+}
+
+@media screen and (min-width:414px) {
+  .c0::-webkit-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c0::-moz-placeholder {
+    font-size: .875em;
+  }
+
+  .c0:-ms-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c0::-webkit-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c0::-moz-placeholder {
+    font-size: .875em;
+  }
+
+  .c0:-ms-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c0::placeholder {
+    font-size: .875em;
+  }
+}
+
+<input
+  className="c0"
+/>
+`;

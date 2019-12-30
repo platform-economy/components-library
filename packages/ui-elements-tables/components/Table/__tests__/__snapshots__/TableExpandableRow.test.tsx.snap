@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-tables Components TableExpandableRow Should render with content 1`] = `
+Array [
+  .c0.expanded {
+  background-color: #midground;
+}
+
+tbody > .c0.clickable:hover {
+  background-color: #midground;
+  cursor: pointer;
+}
+
+<tr
+    className="expanded c0"
+  >
+    <td>
+      Tabe data
+    </td>
+  </tr>,
+  .c2 {
+  -webkit-transition: padding .5s;
+  transition: padding .5s;
+  padding: 18px 16px;
+  text-align: initial;
+}
+
+.c2:first-child {
+  padding-left: 30px;
+}
+
+.c2:last-child {
+  padding-right: 30px;
+}
+
+.c0 {
+  overflow: hidden;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+
+.c0 .c1 {
+  -webkit-animation: paddingTransition .5s;
+  animation: paddingTransition .5s;
+}
+
+.c0.c0.collapsed {
+  border-top: none;
+}
+
+.c0.c0.collapsed .c1 {
+  padding: 0 30px;
+}
+
+.c3 {
+  -webkit-transition: height .5s;
+  transition: height .5s;
+  overflow: hidden;
+}
+
+<tr
+    className="c0"
+  >
+    <td
+      className="c1 c2"
+      colSpan={1}
+    >
+      <div
+        className="c3"
+        style={
+          Object {
+            "height": 0,
+          }
+        }
+      >
+        <div>
+          <p>
+            Rendered content
+          </p>
+        </div>
+      </div>
+    </td>
+  </tr>,
+]
+`;
+
+exports[`ui-elements-tables Components TableExpandableRow Should render without throwing an exception 1`] = `
+.c0.expanded {
+  background-color: #midground;
+}
+
+tbody > .c0.clickable:hover {
+  background-color: #midground;
+  cursor: pointer;
+}
+
+<tr
+  className="c0"
+/>
+`;

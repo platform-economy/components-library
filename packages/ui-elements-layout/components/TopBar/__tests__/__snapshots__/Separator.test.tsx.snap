@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-basic Components TopBar.Separator should render properly 1`] = `
+.c0 {
+  width: 1px;
+  height: 100%;
+  opacity: 0.3;
+  border-left: solid 1px #divider_inverted;
+}
+
+<div
+  className="c0"
+/>
+`;

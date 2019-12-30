@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-tables Components TableCell Should render without throwing an exception 1`] = `
+.c0 {
+  -webkit-transition: padding .5s;
+  transition: padding .5s;
+  padding: 18px 16px;
+  text-align: initial;
+}
+
+.c0:first-child {
+  padding-left: 30px;
+}
+
+.c0:last-child {
+  padding-right: 30px;
+}
+
+<td
+  className="c0"
+/>
+`;

@@ -1,0 +1,501 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-basic Components Select Renders disabled element 1`] = `
+.c1 {
+  position: relative;
+  display: inline-block;
+}
+
+.c1.mobile {
+  display: block;
+}
+
+.c1 .c2 .inlineWrapper {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  cursor: pointer;
+}
+
+.c1 .c2 .cover {
+  -webkit-flex: 1 1 0px;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0px;
+}
+
+.c1 .c2 .icon {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-left: 1em;
+}
+
+.c1.mobile .c2 {
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1.drop-on-hover .c2 {
+  cursor: default;
+}
+
+.c1 .c3 {
+  position: absolute;
+  overflow: hidden;
+  -webkit-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: top;
+  -ms-transform-origin: top;
+  transform-origin: top;
+  -webkit-transition: -webkit-transform 0.26s,max-height 0.26s;
+  -webkit-transition: transform 0.26s,max-height 0.26s;
+  transition: transform 0.26s,max-height 0.26s;
+}
+
+.c1 .c3.left {
+  left: 0;
+}
+
+.c1 .c3.right {
+  right: 0;
+}
+
+.c1 .c3.center {
+  left: 50%;
+  -webkit-transform: scaleY(0) translateX(-50%);
+  -ms-transform: scaleY(0) translateX(-50%);
+  transform: scaleY(0) translateX(-50%);
+}
+
+.c1 .c3.justify {
+  left: 0;
+  right: 0;
+}
+
+.c1 .c3.opened {
+  -webkit-transform: scaleY(1);
+  -ms-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+.c1 .c3.opened.center {
+  -webkit-transform: scaleY(1) translateX(-50%);
+  -ms-transform: scaleY(1) translateX(-50%);
+  transform: scaleY(1) translateX(-50%);
+}
+
+.c1.mobile .c3 {
+  position: relative;
+  max-height: 0;
+  width: 100%;
+}
+
+.c1.mobile .c3.opened {
+  max-height: 100%;
+}
+
+.c0 .select {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c0 .select__field {
+  font-size: 0.875em;
+  color: #inactive;
+  background-color: #foreground;
+  padding: 10px 10px 8px 10px;
+  box-shadow: 0 1px 3px 0 #shadow;
+  border-bottom: 2px solid transparent;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+
+.c0 .select__field:focus {
+  border-bottom: 2px solid #active;
+}
+
+.c0 .select__text--placeholder {
+  color: #inactive;
+}
+
+.c0 .select__icon {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  -webkit-transition: -webkit-transform .3s ease;
+  -webkit-transition: transform .3s ease;
+  transition: transform .3s ease;
+  pointer-events: none;
+  -webkit-transform-origin: 50% 45%;
+  -ms-transform-origin: 50% 45%;
+  transform-origin: 50% 45%;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.c0 .select__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  z-index: 2;
+}
+
+.c0 .select__list-item {
+  padding: 10px;
+  max-height: 35px;
+  font-size: 14px;
+  background: #foreground;
+  color: #text;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 .select__list-item--focused {
+  background: #midground;
+}
+
+.c0 .Dropdown {
+  width: 100%;
+  cursor: not-allowed;
+}
+
+<div
+  className="c0"
+  disabled={true}
+  open={false}
+>
+  <div
+    className="Dropdown c1"
+  >
+    <div
+      className="DropdownCover c2 "
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={Object {}}
+    >
+      <div
+        className="cover"
+      >
+        <div
+          className="select__field"
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          role="button"
+          tabIndex={-1}
+        >
+          <span
+            className="select__text select__text--placeholder"
+          />
+          <i
+            className="select__icon"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="DropdownContent c3 justify"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <ul
+        className="select__list"
+        role="listbox"
+      >
+        <li
+          aria-selected={false}
+          className="select__list-item"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onTouchStart={[Function]}
+          role="option"
+        >
+          test
+        </li>
+        <li
+          aria-selected={false}
+          className="select__list-item"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onTouchStart={[Function]}
+          role="option"
+        >
+          TestWithCaption
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ui-elements-basic Components Select Renders with default state 1`] = `
+.c1 {
+  position: relative;
+  display: inline-block;
+}
+
+.c1.mobile {
+  display: block;
+}
+
+.c1 .c2 .inlineWrapper {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  cursor: pointer;
+}
+
+.c1 .c2 .cover {
+  -webkit-flex: 1 1 0px;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0px;
+}
+
+.c1 .c2 .icon {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-left: 1em;
+}
+
+.c1.mobile .c2 {
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1.drop-on-hover .c2 {
+  cursor: default;
+}
+
+.c1 .c3 {
+  position: absolute;
+  overflow: hidden;
+  -webkit-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: top;
+  -ms-transform-origin: top;
+  transform-origin: top;
+  -webkit-transition: -webkit-transform 0.26s,max-height 0.26s;
+  -webkit-transition: transform 0.26s,max-height 0.26s;
+  transition: transform 0.26s,max-height 0.26s;
+}
+
+.c1 .c3.left {
+  left: 0;
+}
+
+.c1 .c3.right {
+  right: 0;
+}
+
+.c1 .c3.center {
+  left: 50%;
+  -webkit-transform: scaleY(0) translateX(-50%);
+  -ms-transform: scaleY(0) translateX(-50%);
+  transform: scaleY(0) translateX(-50%);
+}
+
+.c1 .c3.justify {
+  left: 0;
+  right: 0;
+}
+
+.c1 .c3.opened {
+  -webkit-transform: scaleY(1);
+  -ms-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+.c1 .c3.opened.center {
+  -webkit-transform: scaleY(1) translateX(-50%);
+  -ms-transform: scaleY(1) translateX(-50%);
+  transform: scaleY(1) translateX(-50%);
+}
+
+.c1.mobile .c3 {
+  position: relative;
+  max-height: 0;
+  width: 100%;
+}
+
+.c1.mobile .c3.opened {
+  max-height: 100%;
+}
+
+.c0 .select {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c0 .select__field {
+  font-size: 0.875em;
+  color: #text;
+  background-color: #foreground;
+  padding: 10px 10px 8px 10px;
+  box-shadow: 0 1px 3px 0 #shadow;
+  border-bottom: 2px solid transparent;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: auto;
+}
+
+.c0 .select__field:focus {
+  border-bottom: 2px solid #active;
+}
+
+.c0 .select__text--placeholder {
+  color: #text_inverted;
+}
+
+.c0 .select__icon {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  -webkit-transition: -webkit-transform .3s ease;
+  -webkit-transition: transform .3s ease;
+  transition: transform .3s ease;
+  pointer-events: none;
+  -webkit-transform-origin: 50% 45%;
+  -ms-transform-origin: 50% 45%;
+  transform-origin: 50% 45%;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.c0 .select__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  z-index: 2;
+}
+
+.c0 .select__list-item {
+  padding: 10px;
+  max-height: 35px;
+  font-size: 14px;
+  background: #foreground;
+  color: #text;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 .select__list-item--focused {
+  background: #midground;
+}
+
+.c0 .Dropdown {
+  width: 100%;
+  cursor: pointer;
+}
+
+<div
+  className="c0"
+  open={false}
+>
+  <div
+    className="Dropdown c1"
+  >
+    <div
+      className="DropdownCover c2 "
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={Object {}}
+    >
+      <div
+        className="cover"
+      >
+        <div
+          className="select__field"
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <span
+            className="select__text select__text--placeholder"
+          />
+          <i
+            className="select__icon"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="DropdownContent c3 justify"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <ul
+        className="select__list"
+        role="listbox"
+      >
+        <li
+          aria-selected={false}
+          className="select__list-item"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onTouchStart={[Function]}
+          role="option"
+        >
+          test
+        </li>
+        <li
+          aria-selected={false}
+          className="select__list-item"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onTouchStart={[Function]}
+          role="option"
+        >
+          TestWithCaption
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

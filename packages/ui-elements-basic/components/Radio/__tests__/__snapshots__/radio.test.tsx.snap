@@ -1,0 +1,511 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-basic Components Radio Render unCheck 1`] = `
+.c0 > input[type=radio] {
+  opacity: 0;
+  display: inline;
+  width: 0px;
+  height: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.c0 svg {
+  margin: 0px 5px;
+  width: 1em;
+  height: 1em;
+}
+
+.c0 svg .radio-button-border {
+  stroke-width: 41;
+  stroke: #text_inverted;
+  fill: transparent;
+}
+
+.c0.focus svg .radio-button-border {
+  stroke: #active;
+}
+
+.c0:hover svg .radio-button-border,
+.c0:focus svg .radio-button-border {
+  stroke: #text;
+}
+
+.c0:active svg .radio-button-border {
+  stroke: #active_lowered;
+}
+
+.c0:disabled svg .radio-button-border,
+.c0.disabled svg .radio-button-border {
+  stroke: #inactive;
+}
+
+.c0 svg .radio-button-selection {
+  fill: #text_inverted;
+}
+
+.c0.focus svg .radio-button-selection {
+  fill: #active;
+}
+
+.c0:hover svg .radio-button-selection,
+.c0:focus svg .radio-button-selection {
+  fill: #text;
+}
+
+.c0:active svg .radio-button-selection {
+  fill: #active_lowered;
+}
+
+.c0:disabled svg .radio-button-selection,
+.c0.disabled svg .radio-button-selection {
+  fill: #inactive;
+}
+
+.c0.checked svg .radio-button-selection {
+  display: auto;
+}
+
+.c0.unchecked svg .radio-button-selection {
+  display: none;
+}
+
+.c0.disabled label {
+  color: #inactive;
+}
+
+<ThemeProvider
+  theme={
+    Object {
+      "logoURL": "http://testUrl",
+      "palette": Object {
+        "active": "#active",
+        "active_disabled": "#active_disabled",
+        "active_hovered": "#active_hovered",
+        "active_lowered": "#active_lowered",
+        "background": "#background",
+        "background_inverted": "#background_inverted",
+        "dataPalette": Array [
+          "#4682B4",
+          "#1e8675",
+          "#7eb828",
+          "#fab200",
+          "#f88200",
+          "#e82928",
+          "#db4cb2",
+          "#840ea3",
+          "#5026ab",
+          "#6a3516",
+          "#262e39",
+          "#506a78",
+        ],
+        "divider": "#divider",
+        "divider_inverted": "#divider_inverted",
+        "foreground": "#foreground",
+        "hovered": "#hovered",
+        "inactive": "#inactive",
+        "midground": "#midground",
+        "negative": "#negative",
+        "negative_hovered": "#negative_hovered",
+        "negative_lowered": "#negative_lowered",
+        "positive": "#positive",
+        "positive_hovered": "#positive_hovered",
+        "positive_lowered": "#positive_lowered",
+        "shadow": "#shadow",
+        "surface": "#surface",
+        "surface_inverted": "#surface_inverted",
+        "text": "#text",
+        "text_highlight": "#text_highlight",
+        "text_inverted": "#text_inverted",
+        "warning": "#warning",
+        "warning_hovered": "#warning_hovered",
+        "warning_lowered": "#warning_lowered",
+      },
+    }
+  }
+>
+  <Radio
+    checked={true}
+    disabled={true}
+    groupName="radioButtonGroupJust For test"
+    value="RadioTestValue"
+  >
+    <styled.span
+      className="checked disabled"
+      disabled={true}
+      onClick={[Function]}
+    >
+      <StyledComponent
+        className="checked disabled"
+        disabled={true}
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bdVaJa",
+              "isStatic": false,
+              "lastClassName": "c0",
+              "rules": Array [
+                "
+  & > input[type=radio]{
+    opacity: 0;
+    display: inline;
+    width:0px;
+    height:0px;
+    margin:0px;
+    padding:0px;
+  }
+  & svg {
+    margin: 0px 5px
+    width: 1em;
+    height: 1em;
+  }
+  & svg .radio-button-border{
+    stroke-width: 41;
+    stroke: ",
+                [Function],
+                ";
+    fill: transparent;
+  }
+  &.focus svg .radio-button-border{
+    stroke: ",
+                [Function],
+                ";
+  }
+  &:hover svg .radio-button-border,
+  &:focus svg .radio-button-border{
+    stroke: ",
+                [Function],
+                ";
+  }
+  &:active svg .radio-button-border{
+    stroke: ",
+                [Function],
+                ";
+  }
+  &:disabled svg .radio-button-border,
+  &.disabled svg .radio-button-border{
+    stroke: ",
+                [Function],
+                ";
+  }
+
+  & svg .radio-button-selection{
+    fill: ",
+                [Function],
+                ";
+  }
+  &.focus svg .radio-button-selection{
+    fill: ",
+                [Function],
+                ";
+  }
+  &:hover svg .radio-button-selection,
+  &:focus svg .radio-button-selection{
+    fill: ",
+                [Function],
+                ";
+  }
+  &:active svg .radio-button-selection{
+    fill: ",
+                [Function],
+                ";
+  }
+  &:disabled svg .radio-button-selection,
+  &.disabled svg .radio-button-selection{
+    fill: ",
+                [Function],
+                ";
+  }
+  &.checked svg .radio-button-selection{
+    display:auto;
+  }
+  &.unchecked svg .radio-button-selection{
+    display:none;
+  }
+  &.disabled label{
+    color: ",
+                [Function],
+                ";
+  }
+",
+              ],
+            },
+            "displayName": "styled.span",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bdVaJa",
+            "target": "span",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+        onClick={[Function]}
+      >
+        <span
+          className="checked disabled c0"
+          disabled={true}
+          onClick={[Function]}
+        >
+          <input
+            disabled={true}
+            name="radioButtonGroupJust For test"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            type="radio"
+            value="RadioTestValue"
+          />
+          <svg
+            viewBox="0 0 512 512"
+          >
+            <circle
+              className="radio-button-border"
+              cx="256"
+              cy="328"
+              r="160"
+            />
+            <circle
+              className="radio-button-selection"
+              cx="256"
+              cy="328"
+              r="80"
+            />
+          </svg>
+        </span>
+      </StyledComponent>
+    </styled.span>
+  </Radio>
+</ThemeProvider>
+`;
+
+exports[`ui-elements-basic Components Radio Should handle click event correctly 1`] = `
+.c0 > input[type=radio] {
+  opacity: 0;
+  display: inline;
+  width: 0px;
+  height: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.c0 svg {
+  margin: 0px 5px;
+  width: 1em;
+  height: 1em;
+}
+
+.c0 svg .radio-button-border {
+  stroke-width: 41;
+  stroke: #text_inverted;
+  fill: transparent;
+}
+
+.c0.focus svg .radio-button-border {
+  stroke: #active;
+}
+
+.c0:hover svg .radio-button-border,
+.c0:focus svg .radio-button-border {
+  stroke: #text;
+}
+
+.c0:active svg .radio-button-border {
+  stroke: #active_lowered;
+}
+
+.c0:disabled svg .radio-button-border,
+.c0.disabled svg .radio-button-border {
+  stroke: #inactive;
+}
+
+.c0 svg .radio-button-selection {
+  fill: #text_inverted;
+}
+
+.c0.focus svg .radio-button-selection {
+  fill: #active;
+}
+
+.c0:hover svg .radio-button-selection,
+.c0:focus svg .radio-button-selection {
+  fill: #text;
+}
+
+.c0:active svg .radio-button-selection {
+  fill: #active_lowered;
+}
+
+.c0:disabled svg .radio-button-selection,
+.c0.disabled svg .radio-button-selection {
+  fill: #inactive;
+}
+
+.c0.checked svg .radio-button-selection {
+  display: auto;
+}
+
+.c0.unchecked svg .radio-button-selection {
+  display: none;
+}
+
+.c0.disabled label {
+  color: #inactive;
+}
+
+<Radio
+  checked={false}
+  groupName="radioButtonGroupJust For test"
+  onClick={[MockFunction]}
+  onValueChange={[MockFunction]}
+  value="RadioTestValue"
+>
+  <styled.span
+    className="unchecked"
+    onClick={[Function]}
+  >
+    <StyledComponent
+      className="unchecked"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  & > input[type=radio]{
+    opacity: 0;
+    display: inline;
+    width:0px;
+    height:0px;
+    margin:0px;
+    padding:0px;
+  }
+  & svg {
+    margin: 0px 5px
+    width: 1em;
+    height: 1em;
+  }
+  & svg .radio-button-border{
+    stroke-width: 41;
+    stroke: ",
+              [Function],
+              ";
+    fill: transparent;
+  }
+  &.focus svg .radio-button-border{
+    stroke: ",
+              [Function],
+              ";
+  }
+  &:hover svg .radio-button-border,
+  &:focus svg .radio-button-border{
+    stroke: ",
+              [Function],
+              ";
+  }
+  &:active svg .radio-button-border{
+    stroke: ",
+              [Function],
+              ";
+  }
+  &:disabled svg .radio-button-border,
+  &.disabled svg .radio-button-border{
+    stroke: ",
+              [Function],
+              ";
+  }
+
+  & svg .radio-button-selection{
+    fill: ",
+              [Function],
+              ";
+  }
+  &.focus svg .radio-button-selection{
+    fill: ",
+              [Function],
+              ";
+  }
+  &:hover svg .radio-button-selection,
+  &:focus svg .radio-button-selection{
+    fill: ",
+              [Function],
+              ";
+  }
+  &:active svg .radio-button-selection{
+    fill: ",
+              [Function],
+              ";
+  }
+  &:disabled svg .radio-button-selection,
+  &.disabled svg .radio-button-selection{
+    fill: ",
+              [Function],
+              ";
+  }
+  &.checked svg .radio-button-selection{
+    display:auto;
+  }
+  &.unchecked svg .radio-button-selection{
+    display:none;
+  }
+  &.disabled label{
+    color: ",
+              [Function],
+              ";
+  }
+",
+            ],
+          },
+          "displayName": "styled.span",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      onClick={[Function]}
+    >
+      <span
+        className="unchecked c0"
+        onClick={[Function]}
+      >
+        <input
+          name="radioButtonGroupJust For test"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          type="radio"
+          value="RadioTestValue"
+        />
+        <svg
+          viewBox="0 0 512 512"
+        >
+          <circle
+            className="radio-button-border"
+            cx="256"
+            cy="328"
+            r="160"
+          />
+          <circle
+            className="radio-button-selection"
+            cx="256"
+            cy="328"
+            r="80"
+          />
+        </svg>
+      </span>
+    </StyledComponent>
+  </styled.span>
+</Radio>
+`;

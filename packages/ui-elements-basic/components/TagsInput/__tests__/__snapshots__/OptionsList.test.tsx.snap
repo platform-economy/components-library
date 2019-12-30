@@ -1,0 +1,347 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-basic Components TagsInput should render tagsList and optionsList with empty props 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  min-height: 1em;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.23);
+  background-color: #surface;
+  color: #text;
+  cursor: pointer;
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  overflow: auto;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0 li {
+  width: 100%;
+  min-height: 1em;
+  padding: 0;
+  line-height: 2em;
+  box-sizing: border-box;
+}
+
+.c0 span.noTagsMsg {
+  color: #text;
+  font-size: .875em;
+  margin-left: .75em;
+  line-height: 2em;
+}
+
+<ul
+  className="c0"
+>
+  <span
+    className="noTagsMsg"
+  />
+  <span />
+</ul>
+`;
+
+exports[`ui-elements-basic Components TagsInput should render tagsList and optionsList with empty props and loading 1`] = `
+.c1 {
+  height: 1em;
+  width: 1em;
+  border-radius: 50%;
+  border: .2em solid #text_inverted;
+  border-top: .2em solid #active;
+  -webkit-animation: hmHMaM 1s infinite linear;
+  animation: hmHMaM 1s infinite linear;
+  box-sizing: border-box;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  min-height: 1em;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.23);
+  background-color: #surface;
+  color: #text;
+  cursor: pointer;
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  overflow: auto;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0 li {
+  width: 100%;
+  min-height: 1em;
+  padding: 0;
+  line-height: 2em;
+  box-sizing: border-box;
+}
+
+.c0 span.noTagsMsg {
+  color: #text;
+  font-size: .875em;
+  margin-left: .75em;
+  line-height: 2em;
+}
+
+<ul
+  className="c0"
+>
+  <span
+    className="noTagsMsg"
+  />
+  <span>
+    <div
+      className="loadingSpinner c1"
+    />
+  </span>
+</ul>
+`;
+
+exports[`ui-elements-basic Components TagsInput should render tagsList and optionsList with props 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  min-height: 1em;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.23);
+  background-color: #surface;
+  color: #text;
+  cursor: pointer;
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  overflow: auto;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0 li {
+  width: 100%;
+  min-height: 1em;
+  padding: 0;
+  line-height: 2em;
+  box-sizing: border-box;
+}
+
+.c0 span.noTagsMsg {
+  color: #text;
+  font-size: .875em;
+  margin-left: .75em;
+  line-height: 2em;
+}
+
+.c1 {
+  min-height: 1.25em;
+  color: #text;
+  line-height: 1.25em;
+  list-style-type: none;
+  font-weight: normal;
+  font-size: .875em;
+  text-align: center;
+  border-left: 2px solid transparent;
+}
+
+.c1:hover {
+  background: #midground;
+  border-left: 2px solid #active;
+}
+
+.c1:active {
+  color: #text_highlight;
+  background: #active_lowered;
+}
+
+.c1 span {
+  padding-left: 1em;
+}
+
+.c1 button {
+  background: none;
+  outline: none;
+  border: none;
+  padding: 0;
+  color: #text;
+}
+
+.c1:focus-within {
+  background-color: #active_hovered;
+}
+
+.c1 .loadingSpinner {
+  display: inline;
+  padding: 2px;
+}
+
+<ul
+  className="c0"
+>
+  <li
+    className="c1"
+    onClick={[Function]}
+  >
+    <button>
+      test
+    </button>
+  </li>
+  <span
+    className="noTagsMsg"
+  />
+  <span />
+</ul>
+`;
+
+exports[`ui-elements-basic Components TagsInput should render tagsList and optionsList with props 2`] = `
+.c2 {
+  height: 1em;
+  width: 1em;
+  border-radius: 50%;
+  border: .2em solid #text_inverted;
+  border-top: .2em solid #active;
+  -webkit-animation: hmHMaM 1s infinite linear;
+  animation: hmHMaM 1s infinite linear;
+  box-sizing: border-box;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  min-height: 1em;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.23);
+  background-color: #surface;
+  color: #text;
+  cursor: pointer;
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  overflow: auto;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0 li {
+  width: 100%;
+  min-height: 1em;
+  padding: 0;
+  line-height: 2em;
+  box-sizing: border-box;
+}
+
+.c0 span.noTagsMsg {
+  color: #text;
+  font-size: .875em;
+  margin-left: .75em;
+  line-height: 2em;
+}
+
+.c1 {
+  min-height: 1.25em;
+  color: #text;
+  line-height: 1.25em;
+  list-style-type: none;
+  font-weight: normal;
+  font-size: .875em;
+  text-align: center;
+  border-left: 2px solid transparent;
+}
+
+.c1:hover {
+  background: #midground;
+  border-left: 2px solid #active;
+}
+
+.c1:active {
+  color: #text_highlight;
+  background: #active_lowered;
+}
+
+.c1 span {
+  padding-left: 1em;
+}
+
+.c1 button {
+  background: none;
+  outline: none;
+  border: none;
+  padding: 0;
+  color: #text;
+}
+
+.c1:focus-within {
+  background-color: #active_hovered;
+}
+
+.c1 .loadingSpinner {
+  display: inline;
+  padding: 2px;
+}
+
+<ul
+  className="c0"
+>
+  <li
+    className="c1"
+    onClick={[Function]}
+  >
+    <button>
+      test
+    </button>
+  </li>
+  <span
+    className="noTagsMsg"
+  />
+  <span>
+    <div
+      className="loadingSpinner c2"
+    />
+  </span>
+</ul>
+`;

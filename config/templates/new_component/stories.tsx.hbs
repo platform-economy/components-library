@@ -1,0 +1,18 @@
+import * as React from 'react';
+import { storiesOf } from '@storybook/react';
+
+import { {{capitalize component_name}} } from './index';
+
+const exampleInfo = `
+**description or documentation about {{capitalize component_name}} component**
+
+*supports markdown*
+`;
+
+storiesOf('{{lowercase package_name}}/{{capitalize component_name}}', module)
+  .add('default', () => (
+      <{{capitalize component_name}} />
+    ), ({
+      info: exampleInfo,
+    }),
+  );

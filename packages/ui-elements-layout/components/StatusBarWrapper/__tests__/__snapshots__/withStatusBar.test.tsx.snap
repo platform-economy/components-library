@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-layout Components StatusBarWrapper should render with color prop from theme 1`] = `
+<div
+  style={
+    Object {
+      "height": "100px",
+      "width": "100px",
+    }
+  }
+/>
+`;
+
+exports[`ui-elements-layout Components StatusBarWrapper should render with color prop passed to a component 1`] = `
+<div
+  style={
+    Object {
+      "height": "100px",
+      "width": "100px",
+    }
+  }
+/>
+`;

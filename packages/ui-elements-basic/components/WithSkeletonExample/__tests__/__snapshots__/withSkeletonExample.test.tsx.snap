@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-basic Components WithSkeletonExample should render with default properties only 1`] = `
+<div>
+  WithSkeletonExample
+</div>
+`;

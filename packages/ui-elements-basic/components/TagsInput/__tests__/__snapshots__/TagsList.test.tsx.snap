@@ -1,0 +1,495 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-basic Components TagsInput should render tagsList with empty props 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  min-height: 35px;
+  width: 100%;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.23);
+  background-color: #surface;
+  color: #text;
+  cursor: text;
+  border: none;
+  margin: 0;
+  padding: .2em;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: auto;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0 li {
+  margin-left: .5em;
+  margin-top: 2px;
+  list-style-type: none;
+}
+
+.c0 .c1 {
+  margin-left: auto;
+  padding: 5px;
+  min-height: 25px;
+}
+
+.c0 span.noTagsMsg {
+  color: #text;
+  margin-left: 1em;
+  font-size: .75em;
+}
+
+.c0 .loadingSpinner {
+  margin: 2px;
+}
+
+<ul
+  className="c0"
+>
+  <span
+    className="noTagsMsg"
+  />
+</ul>
+`;
+
+exports[`ui-elements-basic Components TagsInput should render tagsList with empty props and loading 1`] = `
+.c1 {
+  height: 1em;
+  width: 1em;
+  border-radius: 50%;
+  border: .2em solid #text_inverted;
+  border-top: .2em solid #active;
+  -webkit-animation: hmHMaM 1s infinite linear;
+  animation: hmHMaM 1s infinite linear;
+  box-sizing: border-box;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  min-height: 35px;
+  width: 100%;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.23);
+  background-color: #surface;
+  color: #text;
+  cursor: text;
+  border: none;
+  margin: 0;
+  padding: .2em;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: auto;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0 li {
+  margin-left: .5em;
+  margin-top: 2px;
+  list-style-type: none;
+}
+
+.c0 .c2 {
+  margin-left: auto;
+  padding: 5px;
+  min-height: 25px;
+}
+
+.c0 span.noTagsMsg {
+  color: #text;
+  margin-left: 1em;
+  font-size: .75em;
+}
+
+.c0 .loadingSpinner {
+  margin: 2px;
+}
+
+<ul
+  className="c0"
+>
+  <span
+    className="noTagsMsg"
+  />
+  <div
+    className="loadingSpinner c1"
+  />
+</ul>
+`;
+
+exports[`ui-elements-basic Components TagsInput should render tagsList with props 1`] = `
+.c2 {
+  min-height: 1.25em;
+  padding: 0.125em 1em;
+  background: #foreground;
+  color: #text;
+  border: none;
+  line-height: 1.25em;
+  border-radius: .75em;
+  list-style-type: none;
+  font-weight: normal;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.c2 > span,
+.c2 div,
+.c2 i,
+.c2 a {
+  font-size: .75em;
+}
+
+.c2:hover {
+  color: #text_highlight;
+  background: #active_hovered;
+}
+
+.c2:active {
+  color: #text_highlight;
+  background: #active_lowered;
+}
+
+.c2:focus {
+  color: #text_highlight;
+  background: #active_hovered;
+  border: none;
+  outline: transparent;
+}
+
+.c5 {
+  font-size: .75em;
+  font-weight: bold;
+  outline: none;
+  text-align: center;
+  vertical-align: middle;
+  min-height: 35px;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 30px;
+  -webkit-transition: 100ms all ease-in-out;
+  transition: 100ms all ease-in-out;
+  white-space: nowrap;
+}
+
+.c5::-moz-focus-inner {
+  border: 0;
+}
+
+.c5 .icon-left {
+  margin: 0 5px 0 0;
+}
+
+.c5 .icon-right {
+  margin: 0 0 0 5px;
+}
+
+.c4 {
+  color: #text_inverted;
+  background-color: transparent;
+}
+
+.c4:hover,
+.c4:focus {
+  color: #text;
+  cursor: pointer;
+}
+
+.c4:active {
+  color: #active_lowered;
+}
+
+.c4:disabled {
+  color: #inactive;
+  cursor: not-allowed;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  min-height: 35px;
+  width: 100%;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.23);
+  background-color: #surface;
+  color: #text;
+  cursor: text;
+  border: none;
+  margin: 0;
+  padding: .2em;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: auto;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0 li {
+  margin-left: .5em;
+  margin-top: 2px;
+  list-style-type: none;
+}
+
+.c0 .c3 {
+  margin-left: auto;
+  padding: 5px;
+  min-height: 25px;
+}
+
+.c0 span.noTagsMsg {
+  color: #text;
+  margin-left: 1em;
+  font-size: .75em;
+}
+
+.c0 .loadingSpinner {
+  margin: 2px;
+}
+
+.c1 {
+  list-style-type: none;
+}
+
+<ul
+  className="c0"
+>
+  <li
+    className="c1"
+  >
+    <button
+      className="Tag c2"
+      onClick={[Function]}
+      selected={false}
+      title="test"
+    >
+      <span>
+        test
+      </span>
+    </button>
+  </li>
+  <span
+    className="noTagsMsg"
+  />
+  <button
+    className="c3 c4 c5"
+  >
+    Select All
+  </button>
+</ul>
+`;
+
+exports[`ui-elements-basic Components TagsInput should render tagsList with props and loading 1`] = `
+.c2 {
+  min-height: 1.25em;
+  padding: 0.125em 1em;
+  background: #foreground;
+  color: #text;
+  border: none;
+  line-height: 1.25em;
+  border-radius: .75em;
+  list-style-type: none;
+  font-weight: normal;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.c2 > span,
+.c2 div,
+.c2 i,
+.c2 a {
+  font-size: .75em;
+}
+
+.c2:hover {
+  color: #text_highlight;
+  background: #active_hovered;
+}
+
+.c2:active {
+  color: #text_highlight;
+  background: #active_lowered;
+}
+
+.c2:focus {
+  color: #text_highlight;
+  background: #active_hovered;
+  border: none;
+  outline: transparent;
+}
+
+.c3 {
+  height: 1em;
+  width: 1em;
+  border-radius: 50%;
+  border: .2em solid #text_inverted;
+  border-top: .2em solid #active;
+  -webkit-animation: hmHMaM 1s infinite linear;
+  animation: hmHMaM 1s infinite linear;
+  box-sizing: border-box;
+}
+
+.c6 {
+  font-size: .75em;
+  font-weight: bold;
+  outline: none;
+  text-align: center;
+  vertical-align: middle;
+  min-height: 35px;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 30px;
+  -webkit-transition: 100ms all ease-in-out;
+  transition: 100ms all ease-in-out;
+  white-space: nowrap;
+}
+
+.c6::-moz-focus-inner {
+  border: 0;
+}
+
+.c6 .icon-left {
+  margin: 0 5px 0 0;
+}
+
+.c6 .icon-right {
+  margin: 0 0 0 5px;
+}
+
+.c5 {
+  color: #text_inverted;
+  background-color: transparent;
+}
+
+.c5:hover,
+.c5:focus {
+  color: #text;
+  cursor: pointer;
+}
+
+.c5:active {
+  color: #active_lowered;
+}
+
+.c5:disabled {
+  color: #inactive;
+  cursor: not-allowed;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  min-height: 35px;
+  width: 100%;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.23);
+  background-color: #surface;
+  color: #text;
+  cursor: text;
+  border: none;
+  margin: 0;
+  padding: .2em;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: auto;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0 li {
+  margin-left: .5em;
+  margin-top: 2px;
+  list-style-type: none;
+}
+
+.c0 .c4 {
+  margin-left: auto;
+  padding: 5px;
+  min-height: 25px;
+}
+
+.c0 span.noTagsMsg {
+  color: #text;
+  margin-left: 1em;
+  font-size: .75em;
+}
+
+.c0 .loadingSpinner {
+  margin: 2px;
+}
+
+.c1 {
+  list-style-type: none;
+}
+
+<ul
+  className="c0"
+>
+  <li
+    className="c1"
+  >
+    <button
+      className="Tag c2"
+      onClick={[Function]}
+      selected={false}
+      title="test"
+    >
+      <span>
+        test
+      </span>
+    </button>
+  </li>
+  <span
+    className="noTagsMsg"
+  />
+  <div
+    className="loadingSpinner c3"
+  />
+  <button
+    className="c4 c5 c6"
+  >
+    Select All
+  </button>
+</ul>
+`;

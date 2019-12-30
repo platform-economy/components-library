@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-basic Components RadioToggle Toggle Radio un-toggled 1`] = `
+.c0 {
+  padding: 13px 30px;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-transition: 100ms all ease-in-out;
+  transition: 100ms all ease-in-out;
+  background-color: transparent;
+  color: #text;
+  font-size: 1.5em;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+}
+
+.c0.iconOffFromIconOn {
+  color: #inactive;
+}
+
+.c0:active:hover,
+.c0:active:focus {
+  color: #active_hovered;
+}
+
+.c0:focus,
+.c0.iconOffFromIconOn:focus {
+  color: #active;
+  margin-bottom: -2px;
+}
+
+.c0:hover:not(:disabled),
+.c0.iconOffFromIconOn:hover:not(:disabled) {
+  color: #active_hovered;
+}
+
+.c0:active {
+  color: #text;
+}
+
+.c0:disabled {
+  color: #inactive;
+  cursor: not-allowed;
+}
+
+<button
+  className="c0"
+  onClick={[Function]}
+>
+  <span>
+    OFF
+  </span>
+</button>
+`;
+
+exports[`ui-elements-basic Components RadioToggle renders conditional theme color based on given props 1`] = `
+.c0 {
+  padding: 13px 30px;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-transition: 100ms all ease-in-out;
+  transition: 100ms all ease-in-out;
+  background-color: transparent;
+  color: #active;
+  font-size: 1.5em;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+}
+
+.c0.iconOffFromIconOn {
+  color: #inactive;
+}
+
+.c0:active:hover,
+.c0:active:focus {
+  color: #active_hovered;
+}
+
+.c0:focus,
+.c0.iconOffFromIconOn:focus {
+  color: #active;
+  margin-bottom: -2px;
+}
+
+.c0:hover:not(:disabled),
+.c0.iconOffFromIconOn:hover:not(:disabled) {
+  color: #active_hovered;
+}
+
+.c0:active {
+  color: #text;
+}
+
+.c0:disabled {
+  color: #inactive;
+  cursor: not-allowed;
+}
+
+<button
+  className="c0"
+  onClick={[Function]}
+/>
+`;

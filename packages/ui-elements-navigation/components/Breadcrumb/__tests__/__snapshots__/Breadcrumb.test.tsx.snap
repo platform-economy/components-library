@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-navigation Components Breadcrumb should handle isCurrent props 1`] = `
+.c1 {
+  display: inline;
+  padding: 10px;
+  cursor: default;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c2 {
+  display: inline;
+  padding: 10px;
+  cursor: default;
+  font-weight: bold;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0 {
+  width: auto;
+  height: 1em;
+  font-size: 1em;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  -webkit-letter-spacing: -0.48px;
+  -moz-letter-spacing: -0.48px;
+  -ms-letter-spacing: -0.48px;
+  letter-spacing: -0.48px;
+  color: #text;
+}
+
+<div
+  className="c0"
+>
+  <span
+    className="c1"
+  >
+    <button>
+      Test
+    </button>
+  </span>
+  <span
+    className="c2"
+  >
+    <button>
+      Test2
+    </button>
+  </span>
+</div>
+`;
+
+exports[`ui-elements-navigation Components Breadcrumb should match snapshot 1`] = `
+.c1 {
+  display: inline;
+  padding: 10px;
+  cursor: default;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0 {
+  width: auto;
+  height: 1em;
+  font-size: 1em;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  -webkit-letter-spacing: -0.48px;
+  -moz-letter-spacing: -0.48px;
+  -ms-letter-spacing: -0.48px;
+  letter-spacing: -0.48px;
+  color: #text;
+}
+
+<div
+  className="c0"
+>
+  <span
+    className="c1"
+  >
+    <button>
+      Test
+    </button>
+  </span>
+  <span
+    className="c1"
+  >
+    <button>
+      Test2
+    </button>
+  </span>
+</div>
+`;
+
+exports[`ui-elements-navigation Components Breadcrumb should render with default state 1`] = `
+.c0 {
+  width: auto;
+  height: 1em;
+  font-size: 1em;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  -webkit-letter-spacing: -0.48px;
+  -moz-letter-spacing: -0.48px;
+  -ms-letter-spacing: -0.48px;
+  letter-spacing: -0.48px;
+  color: #text;
+}
+
+<div
+  className="c0"
+/>
+`;

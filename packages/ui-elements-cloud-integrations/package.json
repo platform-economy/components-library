@@ -1,0 +1,54 @@
+{
+  "name": "@relayr/ui-elements-cloud-integrations",
+  "version": "0.0.2",
+  "description": "Relayr UI Elements Library - Cloud-integrations",
+  "main": "./dist/index.js",
+  "types": "./dist/ui-elements-cloud-integrations/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/relayr/ui-elements.git",
+    "directory": "packages/ui-elements-cloud-integrations"
+  },
+  "homepage": "https://github.com/relayr/ui-elements/tree/master/packages/ui-elements-cloud-integrations#readme",
+  "author": "Relayr",
+  "license": "UNLICENSED",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pdmbuilds.proximetry.com"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-export-default-from": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.1.0",
+    "@commitlint/cli": "^7.2.0",
+    "@commitlint/config-conventional": "^7.1.2",
+    "@types/enzyme": "^3.10.3",
+    "@types/gapi": "^0.0.39",
+    "@types/jest": "^23.3.5",
+    "@types/react": "^16.8.19",
+    "@types/styled-components": "^4.0.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-loader": "^8.0.4",
+    "jest": "^23.6.0",
+    "jest-html-reporter": "^2.4.2",
+    "jest-styled-components": "^6.2.1",
+    "react": "^16.8.6",
+    "react-docgen-typescript-loader": "^3.0.0",
+    "react-docgen-typescript-webpack-plugin": "^1.1.0",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.0.0-beta.11.2",
+    "typescript": "^3.1.2"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.0.0-beta.11.2"
+  }
+}

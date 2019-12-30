@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-tables Components Table Should render without throwing an exception 1`] = `
+.c0 {
+  color: #text;
+  border-collapse: collapse;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 1px 3px 0 #shadow;
+}
+
+.c0.condensed .c1,
+.c0.condensed .sc-gzVnrw {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+<table
+  cellPadding={0}
+  cellSpacing={0}
+  className="c0"
+/>
+`;

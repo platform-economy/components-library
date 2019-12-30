@@ -1,0 +1,2593 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-datetime Components CalendarDay should render: default 1`] = `
+<table
+  className="CalendarMonth"
+>
+  <thead>
+    <tr>
+      <th
+        className="weekday-header-sun"
+      >
+        Su
+      </th>
+      <th
+        className="weekday-header-mon"
+      >
+        Mo
+      </th>
+      <th
+        className="weekday-header-tue"
+      >
+        Tu
+      </th>
+      <th
+        className="weekday-header-wed current"
+      >
+        We
+      </th>
+      <th
+        className="weekday-header-thu"
+      >
+        Th
+      </th>
+      <th
+        className="weekday-header-fri"
+      >
+        Fr
+      </th>
+      <th
+        className="weekday-header-sat"
+      >
+        Sa
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      className="CalendarWeek"
+    >
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td
+        className="CalendarDay day day-sat disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        1
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        2
+      </td>
+      <td
+        className="CalendarDay day day-mon disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        3
+      </td>
+      <td
+        className="CalendarDay day day-tue disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        4
+      </td>
+      <td
+        className="CalendarDay day day-wed disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        5
+      </td>
+      <td
+        className="CalendarDay day day-thu disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        6
+      </td>
+      <td
+        className="CalendarDay day day-fri disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        7
+      </td>
+      <td
+        className="CalendarDay day day-sat disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        8
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek current"
+    >
+      <td
+        className="CalendarDay day day-sun disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        9
+      </td>
+      <td
+        className="CalendarDay day day-mon disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        10
+      </td>
+      <td
+        className="CalendarDay day day-tue disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        11
+      </td>
+      <td
+        className="CalendarDay day day-wed current current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        12
+      </td>
+      <td
+        className="CalendarDay day day-thu current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        13
+      </td>
+      <td
+        className="CalendarDay day day-fri current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        14
+      </td>
+      <td
+        className="CalendarDay day day-sat current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        15
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        16
+      </td>
+      <td
+        className="CalendarDay day day-mon current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        17
+      </td>
+      <td
+        className="CalendarDay day day-tue current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        18
+      </td>
+      <td
+        className="CalendarDay day day-wed current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        19
+      </td>
+      <td
+        className="CalendarDay day day-thu current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        20
+      </td>
+      <td
+        className="CalendarDay day day-fri current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        21
+      </td>
+      <td
+        className="CalendarDay day day-sat current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        22
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        23
+      </td>
+      <td
+        className="CalendarDay day day-mon current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        24
+      </td>
+      <td
+        className="CalendarDay day day-tue current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        25
+      </td>
+      <td
+        className="CalendarDay day day-wed current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        26
+      </td>
+      <td
+        className="CalendarDay day day-thu current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        27
+      </td>
+      <td
+        className="CalendarDay day day-fri current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        28
+      </td>
+      <td
+        className="CalendarDay day day-sat current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        29
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        30
+      </td>
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`ui-elements-datetime Components CalendarDay should render: with selected date 1`] = `
+<table
+  className="CalendarMonth"
+>
+  <thead>
+    <tr>
+      <th
+        className="weekday-header-sun"
+      >
+        Su
+      </th>
+      <th
+        className="weekday-header-mon"
+      >
+        Mo
+      </th>
+      <th
+        className="weekday-header-tue"
+      >
+        Tu
+      </th>
+      <th
+        className="weekday-header-wed current"
+      >
+        We
+      </th>
+      <th
+        className="weekday-header-thu"
+      >
+        Th
+      </th>
+      <th
+        className="weekday-header-fri"
+      >
+        Fr
+      </th>
+      <th
+        className="weekday-header-sat"
+      >
+        Sa
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      className="CalendarWeek"
+    >
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td
+        className="CalendarDay day day-sat disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        1
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        2
+      </td>
+      <td
+        className="CalendarDay day day-mon disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        3
+      </td>
+      <td
+        className="CalendarDay day day-tue disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        4
+      </td>
+      <td
+        className="CalendarDay day day-wed disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        5
+      </td>
+      <td
+        className="CalendarDay day day-thu disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        6
+      </td>
+      <td
+        className="CalendarDay day day-fri disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        7
+      </td>
+      <td
+        className="CalendarDay day day-sat disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        8
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek current"
+    >
+      <td
+        className="CalendarDay day day-sun disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        9
+      </td>
+      <td
+        className="CalendarDay day day-mon disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        10
+      </td>
+      <td
+        className="CalendarDay day day-tue disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        11
+      </td>
+      <td
+        className="CalendarDay day day-wed current current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        12
+      </td>
+      <td
+        className="CalendarDay day day-thu selected current-month selection-single"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        13
+      </td>
+      <td
+        className="CalendarDay day day-fri current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        14
+      </td>
+      <td
+        className="CalendarDay day day-sat current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        15
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        16
+      </td>
+      <td
+        className="CalendarDay day day-mon current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        17
+      </td>
+      <td
+        className="CalendarDay day day-tue current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        18
+      </td>
+      <td
+        className="CalendarDay day day-wed current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        19
+      </td>
+      <td
+        className="CalendarDay day day-thu current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        20
+      </td>
+      <td
+        className="CalendarDay day day-fri current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        21
+      </td>
+      <td
+        className="CalendarDay day day-sat current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        22
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        23
+      </td>
+      <td
+        className="CalendarDay day day-mon current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        24
+      </td>
+      <td
+        className="CalendarDay day day-tue current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        25
+      </td>
+      <td
+        className="CalendarDay day day-wed current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        26
+      </td>
+      <td
+        className="CalendarDay day day-thu current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        27
+      </td>
+      <td
+        className="CalendarDay day day-fri current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        28
+      </td>
+      <td
+        className="CalendarDay day day-sat current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        29
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        30
+      </td>
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`ui-elements-datetime Components CalendarDay should render: with selected range (invalid) 1`] = `
+<table
+  className="CalendarMonth"
+>
+  <thead>
+    <tr>
+      <th
+        className="weekday-header-sun"
+      >
+        Su
+      </th>
+      <th
+        className="weekday-header-mon"
+      >
+        Mo
+      </th>
+      <th
+        className="weekday-header-tue"
+      >
+        Tu
+      </th>
+      <th
+        className="weekday-header-wed current"
+      >
+        We
+      </th>
+      <th
+        className="weekday-header-thu"
+      >
+        Th
+      </th>
+      <th
+        className="weekday-header-fri"
+      >
+        Fr
+      </th>
+      <th
+        className="weekday-header-sat"
+      >
+        Sa
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      className="CalendarWeek"
+    >
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td
+        className="CalendarDay day day-sat disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        1
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        2
+      </td>
+      <td
+        className="CalendarDay day day-mon disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        3
+      </td>
+      <td
+        className="CalendarDay day day-tue disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        4
+      </td>
+      <td
+        className="CalendarDay day day-wed disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        5
+      </td>
+      <td
+        className="CalendarDay day day-thu disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        6
+      </td>
+      <td
+        className="CalendarDay day day-fri disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        7
+      </td>
+      <td
+        className="CalendarDay day day-sat disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        8
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek current"
+    >
+      <td
+        className="CalendarDay day day-sun disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        9
+      </td>
+      <td
+        className="CalendarDay day day-mon disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        10
+      </td>
+      <td
+        className="CalendarDay day day-tue disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        11
+      </td>
+      <td
+        className="CalendarDay day day-wed current current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        12
+      </td>
+      <td
+        className="CalendarDay day day-thu current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        13
+      </td>
+      <td
+        className="CalendarDay day day-fri current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        14
+      </td>
+      <td
+        className="CalendarDay day day-sat current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        15
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        16
+      </td>
+      <td
+        className="CalendarDay day day-mon current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        17
+      </td>
+      <td
+        className="CalendarDay day day-tue current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        18
+      </td>
+      <td
+        className="CalendarDay day day-wed current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        19
+      </td>
+      <td
+        className="CalendarDay day day-thu current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        20
+      </td>
+      <td
+        className="CalendarDay day day-fri current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        21
+      </td>
+      <td
+        className="CalendarDay day day-sat current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        22
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        23
+      </td>
+      <td
+        className="CalendarDay day day-mon current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        24
+      </td>
+      <td
+        className="CalendarDay day day-tue current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        25
+      </td>
+      <td
+        className="CalendarDay day day-wed current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        26
+      </td>
+      <td
+        className="CalendarDay day day-thu current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        27
+      </td>
+      <td
+        className="CalendarDay day day-fri current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        28
+      </td>
+      <td
+        className="CalendarDay day day-sat current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        29
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        30
+      </td>
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`ui-elements-datetime Components CalendarDay should render: with selected range (no highlight "from") 1`] = `
+<table
+  className="CalendarMonth"
+>
+  <thead>
+    <tr>
+      <th
+        className="weekday-header-sun"
+      >
+        Su
+      </th>
+      <th
+        className="weekday-header-mon"
+      >
+        Mo
+      </th>
+      <th
+        className="weekday-header-tue"
+      >
+        Tu
+      </th>
+      <th
+        className="weekday-header-wed current"
+      >
+        We
+      </th>
+      <th
+        className="weekday-header-thu"
+      >
+        Th
+      </th>
+      <th
+        className="weekday-header-fri"
+      >
+        Fr
+      </th>
+      <th
+        className="weekday-header-sat"
+      >
+        Sa
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      className="CalendarWeek"
+    >
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td
+        className="CalendarDay day day-sat disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        1
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        2
+      </td>
+      <td
+        className="CalendarDay day day-mon disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        3
+      </td>
+      <td
+        className="CalendarDay day day-tue disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        4
+      </td>
+      <td
+        className="CalendarDay day day-wed disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        5
+      </td>
+      <td
+        className="CalendarDay day day-thu disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        6
+      </td>
+      <td
+        className="CalendarDay day day-fri disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        7
+      </td>
+      <td
+        className="CalendarDay day day-sat disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        8
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek current"
+    >
+      <td
+        className="CalendarDay day day-sun disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        9
+      </td>
+      <td
+        className="CalendarDay day day-mon disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        10
+      </td>
+      <td
+        className="CalendarDay day day-tue disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        11
+      </td>
+      <td
+        className="CalendarDay day day-wed current current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        12
+      </td>
+      <td
+        className="CalendarDay day day-thu selected current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        13
+      </td>
+      <td
+        className="CalendarDay day day-fri selected current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        14
+      </td>
+      <td
+        className="CalendarDay day day-sat selected current-month selection-end"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        15
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        16
+      </td>
+      <td
+        className="CalendarDay day day-mon current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        17
+      </td>
+      <td
+        className="CalendarDay day day-tue current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        18
+      </td>
+      <td
+        className="CalendarDay day day-wed current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        19
+      </td>
+      <td
+        className="CalendarDay day day-thu current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        20
+      </td>
+      <td
+        className="CalendarDay day day-fri current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        21
+      </td>
+      <td
+        className="CalendarDay day day-sat current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        22
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        23
+      </td>
+      <td
+        className="CalendarDay day day-mon current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        24
+      </td>
+      <td
+        className="CalendarDay day day-tue current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        25
+      </td>
+      <td
+        className="CalendarDay day day-wed current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        26
+      </td>
+      <td
+        className="CalendarDay day day-thu current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        27
+      </td>
+      <td
+        className="CalendarDay day day-fri current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        28
+      </td>
+      <td
+        className="CalendarDay day day-sat current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        29
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        30
+      </td>
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`ui-elements-datetime Components CalendarDay should render: with selected range (no highlight "to") 1`] = `
+<table
+  className="CalendarMonth"
+>
+  <thead>
+    <tr>
+      <th
+        className="weekday-header-sun"
+      >
+        Su
+      </th>
+      <th
+        className="weekday-header-mon"
+      >
+        Mo
+      </th>
+      <th
+        className="weekday-header-tue"
+      >
+        Tu
+      </th>
+      <th
+        className="weekday-header-wed current"
+      >
+        We
+      </th>
+      <th
+        className="weekday-header-thu"
+      >
+        Th
+      </th>
+      <th
+        className="weekday-header-fri"
+      >
+        Fr
+      </th>
+      <th
+        className="weekday-header-sat"
+      >
+        Sa
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      className="CalendarWeek"
+    >
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td
+        className="CalendarDay day day-sat disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        1
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        2
+      </td>
+      <td
+        className="CalendarDay day day-mon disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        3
+      </td>
+      <td
+        className="CalendarDay day day-tue disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        4
+      </td>
+      <td
+        className="CalendarDay day day-wed disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        5
+      </td>
+      <td
+        className="CalendarDay day day-thu disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        6
+      </td>
+      <td
+        className="CalendarDay day day-fri disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        7
+      </td>
+      <td
+        className="CalendarDay day day-sat disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        8
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek current"
+    >
+      <td
+        className="CalendarDay day day-sun disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        9
+      </td>
+      <td
+        className="CalendarDay day day-mon disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        10
+      </td>
+      <td
+        className="CalendarDay day day-tue disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        11
+      </td>
+      <td
+        className="CalendarDay day day-wed current current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        12
+      </td>
+      <td
+        className="CalendarDay day day-thu selected current-month selection-start"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        13
+      </td>
+      <td
+        className="CalendarDay day day-fri selected current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        14
+      </td>
+      <td
+        className="CalendarDay day day-sat selected current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        15
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        16
+      </td>
+      <td
+        className="CalendarDay day day-mon current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        17
+      </td>
+      <td
+        className="CalendarDay day day-tue current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        18
+      </td>
+      <td
+        className="CalendarDay day day-wed current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        19
+      </td>
+      <td
+        className="CalendarDay day day-thu current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        20
+      </td>
+      <td
+        className="CalendarDay day day-fri current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        21
+      </td>
+      <td
+        className="CalendarDay day day-sat current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        22
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        23
+      </td>
+      <td
+        className="CalendarDay day day-mon current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        24
+      </td>
+      <td
+        className="CalendarDay day day-tue current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        25
+      </td>
+      <td
+        className="CalendarDay day day-wed current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        26
+      </td>
+      <td
+        className="CalendarDay day day-thu current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        27
+      </td>
+      <td
+        className="CalendarDay day day-fri current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        28
+      </td>
+      <td
+        className="CalendarDay day day-sat current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        29
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        30
+      </td>
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`ui-elements-datetime Components CalendarDay should render: with selected range (open "from") 1`] = `
+<table
+  className="CalendarMonth"
+>
+  <thead>
+    <tr>
+      <th
+        className="weekday-header-sun"
+      >
+        Su
+      </th>
+      <th
+        className="weekday-header-mon"
+      >
+        Mo
+      </th>
+      <th
+        className="weekday-header-tue"
+      >
+        Tu
+      </th>
+      <th
+        className="weekday-header-wed current"
+      >
+        We
+      </th>
+      <th
+        className="weekday-header-thu"
+      >
+        Th
+      </th>
+      <th
+        className="weekday-header-fri"
+      >
+        Fr
+      </th>
+      <th
+        className="weekday-header-sat"
+      >
+        Sa
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      className="CalendarWeek"
+    >
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td
+        className="CalendarDay day day-sat selected disabled current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        1
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun selected disabled current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        2
+      </td>
+      <td
+        className="CalendarDay day day-mon selected disabled current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        3
+      </td>
+      <td
+        className="CalendarDay day day-tue selected disabled current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        4
+      </td>
+      <td
+        className="CalendarDay day day-wed selected disabled current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        5
+      </td>
+      <td
+        className="CalendarDay day day-thu selected disabled current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        6
+      </td>
+      <td
+        className="CalendarDay day day-fri selected disabled current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        7
+      </td>
+      <td
+        className="CalendarDay day day-sat selected disabled current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        8
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek current"
+    >
+      <td
+        className="CalendarDay day day-sun selected disabled current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        9
+      </td>
+      <td
+        className="CalendarDay day day-mon selected disabled current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        10
+      </td>
+      <td
+        className="CalendarDay day day-tue selected disabled current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        11
+      </td>
+      <td
+        className="CalendarDay day day-wed current selected current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        12
+      </td>
+      <td
+        className="CalendarDay day day-thu selected current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        13
+      </td>
+      <td
+        className="CalendarDay day day-fri selected current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        14
+      </td>
+      <td
+        className="CalendarDay day day-sat selected current-month selection-end"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        15
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        16
+      </td>
+      <td
+        className="CalendarDay day day-mon current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        17
+      </td>
+      <td
+        className="CalendarDay day day-tue current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        18
+      </td>
+      <td
+        className="CalendarDay day day-wed current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        19
+      </td>
+      <td
+        className="CalendarDay day day-thu current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        20
+      </td>
+      <td
+        className="CalendarDay day day-fri current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        21
+      </td>
+      <td
+        className="CalendarDay day day-sat current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        22
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        23
+      </td>
+      <td
+        className="CalendarDay day day-mon current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        24
+      </td>
+      <td
+        className="CalendarDay day day-tue current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        25
+      </td>
+      <td
+        className="CalendarDay day day-wed current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        26
+      </td>
+      <td
+        className="CalendarDay day day-thu current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        27
+      </td>
+      <td
+        className="CalendarDay day day-fri current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        28
+      </td>
+      <td
+        className="CalendarDay day day-sat current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        29
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        30
+      </td>
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`ui-elements-datetime Components CalendarDay should render: with selected range (open "to") 1`] = `
+<table
+  className="CalendarMonth"
+>
+  <thead>
+    <tr>
+      <th
+        className="weekday-header-sun"
+      >
+        Su
+      </th>
+      <th
+        className="weekday-header-mon"
+      >
+        Mo
+      </th>
+      <th
+        className="weekday-header-tue"
+      >
+        Tu
+      </th>
+      <th
+        className="weekday-header-wed current"
+      >
+        We
+      </th>
+      <th
+        className="weekday-header-thu"
+      >
+        Th
+      </th>
+      <th
+        className="weekday-header-fri"
+      >
+        Fr
+      </th>
+      <th
+        className="weekday-header-sat"
+      >
+        Sa
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      className="CalendarWeek"
+    >
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td
+        className="CalendarDay day day-sat disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        1
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        2
+      </td>
+      <td
+        className="CalendarDay day day-mon disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        3
+      </td>
+      <td
+        className="CalendarDay day day-tue disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        4
+      </td>
+      <td
+        className="CalendarDay day day-wed disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        5
+      </td>
+      <td
+        className="CalendarDay day day-thu disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        6
+      </td>
+      <td
+        className="CalendarDay day day-fri disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        7
+      </td>
+      <td
+        className="CalendarDay day day-sat disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        8
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek current"
+    >
+      <td
+        className="CalendarDay day day-sun disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        9
+      </td>
+      <td
+        className="CalendarDay day day-mon disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        10
+      </td>
+      <td
+        className="CalendarDay day day-tue disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        11
+      </td>
+      <td
+        className="CalendarDay day day-wed current current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        12
+      </td>
+      <td
+        className="CalendarDay day day-thu selected current-month selection-start"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        13
+      </td>
+      <td
+        className="CalendarDay day day-fri selected current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        14
+      </td>
+      <td
+        className="CalendarDay day day-sat selected current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        15
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun selected current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        16
+      </td>
+      <td
+        className="CalendarDay day day-mon selected current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        17
+      </td>
+      <td
+        className="CalendarDay day day-tue selected current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        18
+      </td>
+      <td
+        className="CalendarDay day day-wed selected current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        19
+      </td>
+      <td
+        className="CalendarDay day day-thu selected current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        20
+      </td>
+      <td
+        className="CalendarDay day day-fri selected current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        21
+      </td>
+      <td
+        className="CalendarDay day day-sat selected current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        22
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun selected current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        23
+      </td>
+      <td
+        className="CalendarDay day day-mon selected current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        24
+      </td>
+      <td
+        className="CalendarDay day day-tue selected current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        25
+      </td>
+      <td
+        className="CalendarDay day day-wed selected current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        26
+      </td>
+      <td
+        className="CalendarDay day day-thu selected current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        27
+      </td>
+      <td
+        className="CalendarDay day day-fri selected current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        28
+      </td>
+      <td
+        className="CalendarDay day day-sat selected current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        29
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun selected current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        30
+      </td>
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`ui-elements-datetime Components CalendarDay should render: with selected range 1`] = `
+<table
+  className="CalendarMonth"
+>
+  <thead>
+    <tr>
+      <th
+        className="weekday-header-sun"
+      >
+        Su
+      </th>
+      <th
+        className="weekday-header-mon"
+      >
+        Mo
+      </th>
+      <th
+        className="weekday-header-tue"
+      >
+        Tu
+      </th>
+      <th
+        className="weekday-header-wed current"
+      >
+        We
+      </th>
+      <th
+        className="weekday-header-thu"
+      >
+        Th
+      </th>
+      <th
+        className="weekday-header-fri"
+      >
+        Fr
+      </th>
+      <th
+        className="weekday-header-sat"
+      >
+        Sa
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      className="CalendarWeek"
+    >
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td
+        className="CalendarDay day day-sat disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        1
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        2
+      </td>
+      <td
+        className="CalendarDay day day-mon disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        3
+      </td>
+      <td
+        className="CalendarDay day day-tue disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        4
+      </td>
+      <td
+        className="CalendarDay day day-wed disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        5
+      </td>
+      <td
+        className="CalendarDay day day-thu disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        6
+      </td>
+      <td
+        className="CalendarDay day day-fri disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        7
+      </td>
+      <td
+        className="CalendarDay day day-sat disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        8
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek current"
+    >
+      <td
+        className="CalendarDay day day-sun disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        9
+      </td>
+      <td
+        className="CalendarDay day day-mon disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        10
+      </td>
+      <td
+        className="CalendarDay day day-tue disabled current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        11
+      </td>
+      <td
+        className="CalendarDay day day-wed current current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        12
+      </td>
+      <td
+        className="CalendarDay day day-thu selected current-month selection-start"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        13
+      </td>
+      <td
+        className="CalendarDay day day-fri selected current-month selection-span"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        14
+      </td>
+      <td
+        className="CalendarDay day day-sat selected current-month selection-end"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        15
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        16
+      </td>
+      <td
+        className="CalendarDay day day-mon current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        17
+      </td>
+      <td
+        className="CalendarDay day day-tue current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        18
+      </td>
+      <td
+        className="CalendarDay day day-wed current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        19
+      </td>
+      <td
+        className="CalendarDay day day-thu current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        20
+      </td>
+      <td
+        className="CalendarDay day day-fri current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        21
+      </td>
+      <td
+        className="CalendarDay day day-sat current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        22
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        23
+      </td>
+      <td
+        className="CalendarDay day day-mon current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        24
+      </td>
+      <td
+        className="CalendarDay day day-tue current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        25
+      </td>
+      <td
+        className="CalendarDay day day-wed current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        26
+      </td>
+      <td
+        className="CalendarDay day day-thu current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        27
+      </td>
+      <td
+        className="CalendarDay day day-fri current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        28
+      </td>
+      <td
+        className="CalendarDay day day-sat current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        29
+      </td>
+    </tr>
+    <tr
+      className="CalendarWeek"
+    >
+      <td
+        className="CalendarDay day day-sun current-month"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        30
+      </td>
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+    </tr>
+  </tbody>
+</table>
+`;

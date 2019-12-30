@@ -1,0 +1,271 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-basic Components Tag should render with default state 1`] = `
+.c0 {
+  min-height: 1.25em;
+  padding: 0.125em 1em;
+  background: #foreground;
+  color: #text;
+  border: none;
+  line-height: 1.25em;
+  border-radius: .75em;
+  list-style-type: none;
+  font-weight: normal;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.c0 > span,
+.c0 div,
+.c0 i,
+.c0 a {
+  font-size: .75em;
+}
+
+.c0:hover {
+  color: #text_highlight;
+  background: #active_hovered;
+}
+
+.c0:active {
+  color: #text_highlight;
+  background: #active_lowered;
+}
+
+.c0:focus {
+  color: #text_highlight;
+  background: #active_hovered;
+  border: none;
+  outline: transparent;
+}
+
+<button
+  className="Tag c0"
+  onClick={[Function]}
+  title="test"
+/>
+`;
+
+exports[`ui-elements-basic Components Tag should render with passing children 1`] = `
+.c0 {
+  min-height: 1.25em;
+  padding: 0.125em 1em;
+  background: #foreground;
+  color: #text;
+  border: none;
+  line-height: 1.25em;
+  border-radius: .75em;
+  list-style-type: none;
+  font-weight: normal;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.c0 > span,
+.c0 div,
+.c0 i,
+.c0 a {
+  font-size: .75em;
+}
+
+.c0:hover {
+  color: #text_highlight;
+  background: #active_hovered;
+}
+
+.c0:active {
+  color: #text_highlight;
+  background: #active_lowered;
+}
+
+.c0:focus {
+  color: #text_highlight;
+  background: #active_hovered;
+  border: none;
+  outline: transparent;
+}
+
+<button
+  className="Tag c0"
+  onClick={[Function]}
+  title="test"
+>
+  <strong>
+    Test2
+  </strong>
+</button>
+`;
+
+exports[`ui-elements-basic Components Tag should render with removing props 1`] = `
+.c0 {
+  min-height: 1.25em;
+  padding: 0.125em 1em;
+  background: #negative;
+  color: #text_highlight;
+  border: none;
+  line-height: 1.25em;
+  border-radius: .75em;
+  list-style-type: none;
+  font-weight: normal;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.c0 > span,
+.c0 div,
+.c0 i,
+.c0 a {
+  font-size: .75em;
+}
+
+.c0:hover {
+  color: #text_highlight;
+  background: #negative_hovered;
+}
+
+.c0:active {
+  color: #text_highlight;
+  background: #negative_lowered;
+}
+
+.c0:focus {
+  color: #text_highlight;
+  background: #negative_hovered;
+  border: none;
+  outline: transparent;
+}
+
+<button
+  className="Tag c0"
+  onClick={[Function]}
+  selected={true}
+  title="test"
+/>
+`;
+
+exports[`ui-elements-basic Components Tag should render with removing props and icon 1`] = `
+.c0 {
+  min-height: 1.25em;
+  padding: 0.125em 1em;
+  background: #negative;
+  color: #text_highlight;
+  border: none;
+  line-height: 1.25em;
+  border-radius: .75em;
+  list-style-type: none;
+  font-weight: normal;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.c0 > span,
+.c0 div,
+.c0 i,
+.c0 a {
+  font-size: .75em;
+}
+
+.c0:hover {
+  color: #text_highlight;
+  background: #negative_hovered;
+}
+
+.c0:active {
+  color: #text_highlight;
+  background: #negative_lowered;
+}
+
+.c0:focus {
+  color: #text_highlight;
+  background: #negative_hovered;
+  border: none;
+  outline: transparent;
+}
+
+<button
+  className="Tag c0"
+  onClick={[Function]}
+  title="test"
+>
+  <span
+    className="removeIcon"
+  >
+     
+    <span>
+      Icon
+    </span>
+  </span>
+</button>
+`;
+
+exports[`ui-elements-basic Components Tag should render with selected props 1`] = `
+.c0 {
+  min-height: 1.25em;
+  padding: 0.125em 1em;
+  background: #active;
+  color: #text_highlight;
+  border: none;
+  line-height: 1.25em;
+  border-radius: .75em;
+  list-style-type: none;
+  font-weight: normal;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.c0 > span,
+.c0 div,
+.c0 i,
+.c0 a {
+  font-size: .75em;
+}
+
+.c0:hover {
+  color: #text_highlight;
+  background: #active_hovered;
+}
+
+.c0:active {
+  color: #text_highlight;
+  background: #active_lowered;
+}
+
+.c0:focus {
+  color: #text_highlight;
+  background: #active_hovered;
+  border: none;
+  outline: transparent;
+}
+
+<button
+  className="Tag c0"
+  onClick={[Function]}
+  selected={true}
+  title="test"
+/>
+`;

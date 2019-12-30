@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-basic Components Button.Icon Should render with default props only 1`] = `
+.c0 {
+  font-size: 1em;
+  outline: none;
+  text-align: center;
+  vertical-align: middle;
+  border: none;
+  padding: 0px;
+  -webkit-transition: 100ms all ease-in-out;
+  transition: 100ms all ease-in-out;
+  background-color: transparent;
+  color: #text;
+}
+
+.c0::-moz-focus-inner {
+  border: 0;
+}
+
+.c0:hover,
+.c0:focus {
+  color: #active_hovered;
+  cursor: pointer;
+}
+
+.c0:active {
+  color: #active_lowered;
+}
+
+.c0:disabled {
+  color: #inactive;
+  cursor: not-allowed;
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`ui-elements-basic Components Button.Icon Should render with icon 1`] = `
+.c0 {
+  font-size: 1em;
+  outline: none;
+  text-align: center;
+  vertical-align: middle;
+  border: none;
+  padding: 0px;
+  -webkit-transition: 100ms all ease-in-out;
+  transition: 100ms all ease-in-out;
+  background-color: transparent;
+  color: #text;
+}
+
+.c0::-moz-focus-inner {
+  border: 0;
+}
+
+.c0:hover,
+.c0:focus {
+  color: #active_hovered;
+  cursor: pointer;
+}
+
+.c0:active {
+  color: #active_lowered;
+}
+
+.c0:disabled {
+  color: #inactive;
+  cursor: not-allowed;
+}
+
+<button
+  className="c0"
+>
+  icon
+</button>
+`;

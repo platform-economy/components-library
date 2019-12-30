@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-skeletons Components Spinner should render with default state 1`] = `
+.c0 {
+  height: 1em;
+  width: 1em;
+  border-radius: 50%;
+  border: .2em solid #text_inverted;
+  border-top: .2em solid #active;
+  -webkit-animation: hmHMaM 1s infinite linear;
+  animation: hmHMaM 1s infinite linear;
+  box-sizing: border-box;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`ui-elements-skeletons Components Spinner should render with size prop as number 1`] = `
+.c0 {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 37.5px solid #text_inverted;
+  border-top: 37.5px solid #active;
+  -webkit-animation: hmHMaM 1s infinite linear;
+  animation: hmHMaM 1s infinite linear;
+  box-sizing: border-box;
+}
+
+<div
+  className="c0"
+  size={300}
+/>
+`;
+
+exports[`ui-elements-skeletons Components Spinner should render with size prop as text 1`] = `
+.c0 {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 12.5px solid #text_inverted;
+  border-top: 12.5px solid #active;
+  -webkit-animation: hmHMaM 1s infinite linear;
+  animation: hmHMaM 1s infinite linear;
+  box-sizing: border-box;
+}
+
+<div
+  className="c0"
+  size="100px"
+/>
+`;

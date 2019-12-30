@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-basic Components FloatingLabel should render with default state 1`] = `
+.c0 {
+  position: relative;
+}
+
+.c0 input::-webkit-input-placeholder,
+.c0 input::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.c0 input::-moz-placeholder,
+.c0 input::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.c0 input:-ms-input-placeholder,
+.c0 input::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.c0 input::placeholder,
+.c0 input::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.c0 input:-ms-input-placeholder {
+  opacity: 0;
+}
+
+.c0 label {
+  position: absolute;
+  will-change: transform;
+  font-size: 1em;
+  color: #text_inverted;
+  pointer-events: none;
+  -webkit-transition: all 0.3s cubic-bezier(.06,.67,.32,.82);
+  transition: all 0.3s cubic-bezier(.06,.67,.32,.82);
+  -webkit-transform: translate(10px,-25px);
+  -ms-transform: translate(10px,-25px);
+  transform: translate(10px,-25px);
+}
+
+.c0 div {
+  margin-top: 15px;
+}
+
+.c0:focus-within label {
+  font-size: .75em;
+  color: #text;
+}
+
+.c0 input:not(:placeholder-shown) ~ label {
+  font-size: .75em;
+  color: #text;
+}
+
+@media screen and (min-width:414px) {
+  .c0 label {
+    font-size: .875em;
+  }
+}
+
+<div
+  className="c0"
+>
+  <input />
+  <label />
+</div>
+`;
+
+exports[`ui-elements-basic Components FloatingLabel should render with props 1`] = `
+.c0 {
+  position: relative;
+}
+
+.c0 input::-webkit-input-placeholder,
+.c0 input::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.c0 input::-moz-placeholder,
+.c0 input::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.c0 input:-ms-input-placeholder,
+.c0 input::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.c0 input::placeholder,
+.c0 input::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.c0 input:-ms-input-placeholder {
+  opacity: 0;
+}
+
+.c0 label {
+  position: absolute;
+  will-change: transform;
+  font-size: 1em;
+  color: #text_inverted;
+  pointer-events: none;
+  -webkit-transition: all 0.3s cubic-bezier(.06,.67,.32,.82);
+  transition: all 0.3s cubic-bezier(.06,.67,.32,.82);
+  -webkit-transform: translate(10px,-25px);
+  -ms-transform: translate(10px,-25px);
+  transform: translate(10px,-25px);
+  -webkit-transform: translate(0px,-55px);
+  -ms-transform: translate(0px,-55px);
+  transform: translate(0px,-55px);
+  font-size: .75em;
+  color: #text;
+}
+
+.c0 div {
+  margin-top: 15px;
+}
+
+.c0:focus-within label {
+  -webkit-transform: translate(0px,-55px);
+  -ms-transform: translate(0px,-55px);
+  transform: translate(0px,-55px);
+  font-size: .75em;
+  color: #text;
+}
+
+.c0 input:not(:placeholder-shown) ~ label {
+  -webkit-transform: translate(0px,-55px);
+  -ms-transform: translate(0px,-55px);
+  transform: translate(0px,-55px);
+  font-size: .75em;
+  color: #text;
+}
+
+@media screen and (min-width:414px) {
+  .c0 label {
+    font-size: .875em;
+  }
+}
+
+<div
+  className="c0"
+  height={70}
+>
+  <input />
+  <label />
+</div>
+`;

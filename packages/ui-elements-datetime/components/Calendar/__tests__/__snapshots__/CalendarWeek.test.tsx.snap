@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-datetime Components CalendarDay should render: isCurrent=false 1`] = `
+<tr
+  className="CalendarWeek"
+/>
+`;
+
+exports[`ui-elements-datetime Components CalendarDay should render: isCurrent=true 1`] = `
+<tr
+  className="CalendarWeek current"
+/>
+`;

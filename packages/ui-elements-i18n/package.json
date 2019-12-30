@@ -1,0 +1,39 @@
+{
+  "name": "@relayr/ui-elements-i18n",
+  "version": "0.0.3",
+  "description": "Relayr UI Elements Library - i18n",
+  "main": "./dist/index.js",
+  "types": "./dist/ui-elements-i18n/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/relayr/ui-elements.git",
+    "directory": "packages/ui-elements-i18n"
+  },
+  "homepage": "https://github.com/relayr/ui-elements/tree/master/packages/ui-elements-i18n#readme",
+  "author": "Relayr",
+  "license": "UNLICENSED",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pdmbuilds.proximetry.com"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-export-default-from": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.1.0",
+    "@commitlint/cli": "^7.2.0",
+    "@commitlint/config-conventional": "^7.1.2",
+    "@types/jest": "^23.3.5",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-loader": "^8.0.4",
+    "react-docgen-typescript-loader": "^3.0.0",
+    "react-docgen-typescript-webpack-plugin": "^1.1.0",
+    "typescript": "^3.1.2"
+  }
+}

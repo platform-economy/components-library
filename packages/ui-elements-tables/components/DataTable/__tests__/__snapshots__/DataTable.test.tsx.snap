@@ -1,0 +1,1192 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-tables Components DataTable should render with getDetails 1`] = `
+.c1 {
+  background-color: #foreground;
+  font-size: .875em;
+}
+
+.c5 {
+  background-color: #surface;
+  font-size: .75em;
+}
+
+.c5 > tr:not(:first-child) {
+  border-top: solid 2px #midground;
+}
+
+tbody > .c2:hover {
+  background-color: inherit;
+  cursor: inherit;
+}
+
+.c8 {
+  -webkit-transition: padding .5s;
+  transition: padding .5s;
+  padding: 18px 16px;
+  text-align: initial;
+}
+
+.c8:first-child {
+  padding-left: 30px;
+}
+
+.c8:last-child {
+  padding-right: 30px;
+}
+
+.c9 {
+  -webkit-transition: padding .5s;
+  transition: padding .5s;
+  padding: 18px 16px;
+  text-align: center;
+}
+
+.c9:first-child {
+  padding-left: 30px;
+}
+
+.c9:last-child {
+  padding-right: 30px;
+}
+
+.c6.expanded {
+  background-color: #midground;
+}
+
+tbody > .c6.clickable:hover {
+  background-color: #midground;
+  cursor: pointer;
+}
+
+.c4 {
+  -webkit-transition: padding .5s;
+  transition: padding .5s;
+  padding: 22px 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: left;
+}
+
+.c4.c4:first-child {
+  padding-left: 30px;
+}
+
+.c4.c4:last-child {
+  padding-right: 30px;
+}
+
+.c4.active {
+  color: #active;
+}
+
+.c4.short {
+  width: 1px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.c4.clickable:hover {
+  color: #active_hovered;
+  cursor: pointer;
+}
+
+.c0 {
+  color: #text;
+  border-collapse: collapse;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 1px 3px 0 #shadow;
+}
+
+.c0.condensed .c7,
+.c0.condensed .c3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+<table
+  cellPadding={0}
+  cellSpacing={0}
+  className="c0"
+>
+  <thead
+    className="c1"
+  >
+    <tr
+      className="c2"
+    >
+      <th
+        className="c3 c4"
+        onClick={[Function]}
+      >
+        <input
+          checked={false}
+          className="indeterminate"
+          onChange={[Function]}
+          type="checkbox"
+        />
+      </th>
+      <th
+        className="c3 c4"
+        onClick={[Function]}
+      >
+        d
+      </th>
+      <th
+        className="c3 c4"
+        onClick={[Function]}
+      >
+        d
+      </th>
+      <th
+        className="short c3 c4"
+        onClick={[Function]}
+      >
+        c2
+      </th>
+      <th
+        className="c3 c4"
+        onClick={[Function]}
+      >
+        Name
+      </th>
+      <th
+        className="c3 c4"
+        onClick={[Function]}
+      >
+         
+      </th>
+      <th
+        className="c3 c4"
+        onClick={[Function]}
+      >
+        caption
+      </th>
+      <th
+        className="c3 c4"
+        onClick={[Function]}
+      >
+        test4
+      </th>
+      <th
+        className="c3 c4"
+        onClick={[Function]}
+      />
+      <th
+        className="short c3 c4"
+        onClick={[Function]}
+      >
+        <button
+          onClick={[Function]}
+        />
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    className="c5"
+  >
+    <tr
+      className="c6"
+    >
+      <td
+        className="c7 c8"
+      >
+        <input
+          checked={false}
+          onChange={[Function]}
+          type="checkbox"
+        />
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test
+      </td>
+      <td
+        className="c7 c9"
+      >
+        test
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test2
+      </td>
+      <td
+        className="c7 c8"
+      >
+        
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test2
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test4
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test
+      </td>
+      <td
+        className="c7 c8"
+      >
+        <button
+          onClick={[Function]}
+        />
+      </td>
+    </tr>
+    <tr
+      className="c6"
+    >
+      <td
+        className="c7 c8"
+      >
+        <input
+          checked={false}
+          onChange={[Function]}
+          type="checkbox"
+        />
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test
+      </td>
+      <td
+        className="c7 c9"
+      >
+        test
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test2
+      </td>
+      <td
+        className="c7 c8"
+      >
+        
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test2
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test4
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test
+      </td>
+      <td
+        className="c7 c8"
+      >
+        <button
+          onClick={[Function]}
+        />
+      </td>
+    </tr>
+    <tr
+      className="c6"
+    >
+      <td
+        className="c7 c8"
+      >
+        <input
+          checked={false}
+          onChange={[Function]}
+          type="checkbox"
+        />
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test
+      </td>
+      <td
+        className="c7 c9"
+      >
+        test
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test2
+      </td>
+      <td
+        className="c7 c8"
+      >
+        
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test2
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test4
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test
+      </td>
+      <td
+        className="c7 c8"
+      >
+        <button
+          onClick={[Function]}
+        />
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`ui-elements-tables Components DataTable should render with no details 1`] = `
+.c1 {
+  background-color: #foreground;
+  font-size: .875em;
+}
+
+.c5 {
+  background-color: #surface;
+  font-size: .75em;
+}
+
+.c5 > tr:not(:first-child) {
+  border-top: solid 2px #midground;
+}
+
+tbody > .c2:hover {
+  background-color: inherit;
+  cursor: inherit;
+}
+
+.c7 {
+  -webkit-transition: padding .5s;
+  transition: padding .5s;
+  padding: 18px 16px;
+  text-align: initial;
+}
+
+.c7:first-child {
+  padding-left: 30px;
+}
+
+.c7:last-child {
+  padding-right: 30px;
+}
+
+.c8 {
+  -webkit-transition: padding .5s;
+  transition: padding .5s;
+  padding: 18px 16px;
+  text-align: center;
+}
+
+.c8:first-child {
+  padding-left: 30px;
+}
+
+.c8:last-child {
+  padding-right: 30px;
+}
+
+.c4 {
+  -webkit-transition: padding .5s;
+  transition: padding .5s;
+  padding: 22px 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: left;
+}
+
+.c4.c4:first-child {
+  padding-left: 30px;
+}
+
+.c4.c4:last-child {
+  padding-right: 30px;
+}
+
+.c4.active {
+  color: #active;
+}
+
+.c4.short {
+  width: 1px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.c4.clickable:hover {
+  color: #active_hovered;
+  cursor: pointer;
+}
+
+.c0 {
+  color: #text;
+  border-collapse: collapse;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 1px 3px 0 #shadow;
+}
+
+.c0.condensed .c6,
+.c0.condensed .c3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+<table
+  cellPadding={0}
+  cellSpacing={0}
+  className="c0"
+>
+  <thead
+    className="c1"
+  >
+    <tr
+      className="c2"
+    >
+      <th
+        className="c3 c4"
+        onClick={[Function]}
+      >
+        <input
+          checked={false}
+          className="indeterminate"
+          onChange={[Function]}
+          type="checkbox"
+        />
+      </th>
+      <th
+        className="c3 c4"
+        onClick={[Function]}
+      >
+        d
+      </th>
+      <th
+        className="c3 c4"
+        onClick={[Function]}
+      >
+        d
+      </th>
+      <th
+        className="short c3 c4"
+        onClick={[Function]}
+      >
+        c2
+      </th>
+      <th
+        className="c3 c4"
+        onClick={[Function]}
+      >
+        Name
+      </th>
+      <th
+        className="c3 c4"
+        onClick={[Function]}
+      >
+         
+      </th>
+      <th
+        className="c3 c4"
+        onClick={[Function]}
+      >
+        caption
+      </th>
+      <th
+        className="c3 c4"
+        onClick={[Function]}
+      >
+        test4
+      </th>
+      <th
+        className="c3 c4"
+        onClick={[Function]}
+      />
+      <th
+        className="short c3 c4"
+        onClick={[Function]}
+      >
+        <button
+          onClick={[Function]}
+        />
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    className="c5"
+  >
+    <tr
+      className="c2"
+      rows={
+        Array [
+          Object {
+            "c2": "test",
+            "c3": "test",
+            "c4": "test",
+            "c5": "test",
+            "c6": "test",
+            "details": Array [],
+            "id": "r0",
+            "test": "Test",
+          },
+          Object {
+            "details": Array [
+              Object {
+                "key": "Test",
+                "value": "Test",
+              },
+            ],
+            "id": "r1",
+            "test": "Test",
+          },
+          Object {
+            "id": "r2",
+            "test": "Test",
+          },
+        ]
+      }
+    >
+      <td
+        className="c6 c7"
+      >
+        <input
+          checked={false}
+          onChange={[Function]}
+          type="checkbox"
+        />
+      </td>
+      <td
+        className="c6 c7"
+      >
+        test
+      </td>
+      <td
+        className="c6 c7"
+      >
+        test
+      </td>
+      <td
+        className="c6 c8"
+      >
+        test
+      </td>
+      <td
+        className="c6 c7"
+      >
+        test2
+      </td>
+      <td
+        className="c6 c7"
+      >
+        
+      </td>
+      <td
+        className="c6 c7"
+      >
+        test2
+      </td>
+      <td
+        className="c6 c7"
+      >
+        test4
+      </td>
+      <td
+        className="c6 c7"
+      >
+        test
+      </td>
+      <td
+        className="c6 c7"
+      >
+        <button
+          onClick={[Function]}
+        />
+      </td>
+    </tr>
+    <tr
+      className="c2"
+      rows={
+        Array [
+          Object {
+            "c2": "test",
+            "c3": "test",
+            "c4": "test",
+            "c5": "test",
+            "c6": "test",
+            "details": Array [],
+            "id": "r0",
+            "test": "Test",
+          },
+          Object {
+            "details": Array [
+              Object {
+                "key": "Test",
+                "value": "Test",
+              },
+            ],
+            "id": "r1",
+            "test": "Test",
+          },
+          Object {
+            "id": "r2",
+            "test": "Test",
+          },
+        ]
+      }
+    >
+      <td
+        className="c6 c7"
+      >
+        <input
+          checked={false}
+          onChange={[Function]}
+          type="checkbox"
+        />
+      </td>
+      <td
+        className="c6 c7"
+      >
+        test
+      </td>
+      <td
+        className="c6 c7"
+      >
+        test
+      </td>
+      <td
+        className="c6 c8"
+      >
+        test
+      </td>
+      <td
+        className="c6 c7"
+      >
+        test2
+      </td>
+      <td
+        className="c6 c7"
+      >
+        
+      </td>
+      <td
+        className="c6 c7"
+      >
+        test2
+      </td>
+      <td
+        className="c6 c7"
+      >
+        test4
+      </td>
+      <td
+        className="c6 c7"
+      >
+        test
+      </td>
+      <td
+        className="c6 c7"
+      >
+        <button
+          onClick={[Function]}
+        />
+      </td>
+    </tr>
+    <tr
+      className="c2"
+      rows={
+        Array [
+          Object {
+            "c2": "test",
+            "c3": "test",
+            "c4": "test",
+            "c5": "test",
+            "c6": "test",
+            "details": Array [],
+            "id": "r0",
+            "test": "Test",
+          },
+          Object {
+            "details": Array [
+              Object {
+                "key": "Test",
+                "value": "Test",
+              },
+            ],
+            "id": "r1",
+            "test": "Test",
+          },
+          Object {
+            "id": "r2",
+            "test": "Test",
+          },
+        ]
+      }
+    >
+      <td
+        className="c6 c7"
+      >
+        <input
+          checked={false}
+          onChange={[Function]}
+          type="checkbox"
+        />
+      </td>
+      <td
+        className="c6 c7"
+      >
+        test
+      </td>
+      <td
+        className="c6 c7"
+      >
+        test
+      </td>
+      <td
+        className="c6 c8"
+      >
+        test
+      </td>
+      <td
+        className="c6 c7"
+      >
+        test2
+      </td>
+      <td
+        className="c6 c7"
+      >
+        
+      </td>
+      <td
+        className="c6 c7"
+      >
+        test2
+      </td>
+      <td
+        className="c6 c7"
+      >
+        test4
+      </td>
+      <td
+        className="c6 c7"
+      >
+        test
+      </td>
+      <td
+        className="c6 c7"
+      >
+        <button
+          onClick={[Function]}
+        />
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`ui-elements-tables Components DataTable should render with renderDetails 1`] = `
+.c1 {
+  background-color: #foreground;
+  font-size: .875em;
+}
+
+.c5 {
+  background-color: #surface;
+  font-size: .75em;
+}
+
+.c5 > tr:not(:first-child) {
+  border-top: solid 2px #midground;
+}
+
+tbody > .c2:hover {
+  background-color: inherit;
+  cursor: inherit;
+}
+
+.c8 {
+  -webkit-transition: padding .5s;
+  transition: padding .5s;
+  padding: 18px 16px;
+  text-align: initial;
+}
+
+.c8:first-child {
+  padding-left: 30px;
+}
+
+.c8:last-child {
+  padding-right: 30px;
+}
+
+.c9 {
+  -webkit-transition: padding .5s;
+  transition: padding .5s;
+  padding: 18px 16px;
+  text-align: center;
+}
+
+.c9:first-child {
+  padding-left: 30px;
+}
+
+.c9:last-child {
+  padding-right: 30px;
+}
+
+.c6.expanded {
+  background-color: #midground;
+}
+
+tbody > .c6.clickable:hover {
+  background-color: #midground;
+  cursor: pointer;
+}
+
+.c4 {
+  -webkit-transition: padding .5s;
+  transition: padding .5s;
+  padding: 22px 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: left;
+}
+
+.c4.c4:first-child {
+  padding-left: 30px;
+}
+
+.c4.c4:last-child {
+  padding-right: 30px;
+}
+
+.c4.active {
+  color: #active;
+}
+
+.c4.short {
+  width: 1px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.c4.clickable:hover {
+  color: #active_hovered;
+  cursor: pointer;
+}
+
+.c0 {
+  color: #text;
+  border-collapse: collapse;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 1px 3px 0 #shadow;
+}
+
+.c0.condensed .c7,
+.c0.condensed .c3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+<table
+  cellPadding={0}
+  cellSpacing={0}
+  className="c0"
+>
+  <thead
+    className="c1"
+  >
+    <tr
+      className="c2"
+    >
+      <th
+        className="c3 c4"
+        onClick={[Function]}
+      >
+        <input
+          checked={false}
+          className="indeterminate"
+          onChange={[Function]}
+          type="checkbox"
+        />
+      </th>
+      <th
+        className="c3 c4"
+        onClick={[Function]}
+      >
+        d
+      </th>
+      <th
+        className="c3 c4"
+        onClick={[Function]}
+      >
+        d
+      </th>
+      <th
+        className="short c3 c4"
+        onClick={[Function]}
+      >
+        c2
+      </th>
+      <th
+        className="c3 c4"
+        onClick={[Function]}
+      >
+        Name
+      </th>
+      <th
+        className="c3 c4"
+        onClick={[Function]}
+      >
+         
+      </th>
+      <th
+        className="c3 c4"
+        onClick={[Function]}
+      >
+        caption
+      </th>
+      <th
+        className="c3 c4"
+        onClick={[Function]}
+      >
+        test4
+      </th>
+      <th
+        className="c3 c4"
+        onClick={[Function]}
+      />
+      <th
+        className="short c3 c4"
+        onClick={[Function]}
+      >
+        <button
+          onClick={[Function]}
+        />
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    className="c5"
+  >
+    <tr
+      className="c6"
+    >
+      <td
+        className="c7 c8"
+      >
+        <input
+          checked={false}
+          onChange={[Function]}
+          type="checkbox"
+        />
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test
+      </td>
+      <td
+        className="c7 c9"
+      >
+        test
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test2
+      </td>
+      <td
+        className="c7 c8"
+      >
+        
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test2
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test4
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test
+      </td>
+      <td
+        className="c7 c8"
+      >
+        <button
+          onClick={[Function]}
+        />
+      </td>
+    </tr>
+    <tr
+      className="c6"
+    >
+      <td
+        className="c7 c8"
+      >
+        <input
+          checked={false}
+          onChange={[Function]}
+          type="checkbox"
+        />
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test
+      </td>
+      <td
+        className="c7 c9"
+      >
+        test
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test2
+      </td>
+      <td
+        className="c7 c8"
+      >
+        
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test2
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test4
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test
+      </td>
+      <td
+        className="c7 c8"
+      >
+        <button
+          onClick={[Function]}
+        />
+      </td>
+    </tr>
+    <tr
+      className="c6"
+    >
+      <td
+        className="c7 c8"
+      >
+        <input
+          checked={false}
+          onChange={[Function]}
+          type="checkbox"
+        />
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test
+      </td>
+      <td
+        className="c7 c9"
+      >
+        test
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test2
+      </td>
+      <td
+        className="c7 c8"
+      >
+        
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test2
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test4
+      </td>
+      <td
+        className="c7 c8"
+      >
+        test
+      </td>
+      <td
+        className="c7 c8"
+      >
+        <button
+          onClick={[Function]}
+        />
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

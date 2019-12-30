@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-layout Components HorizontalDivider Should render only one rule 1`] = `
+.c1 {
+  border: none;
+  border-bottom: 1px solid;
+  color: #divider_inverted;
+  width: auto;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 > hr {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  height: 0;
+  margin: 0 20px;
+}
+
+.c0 > *:first-child {
+  margin-left: 0;
+}
+
+.c0 > *:last-child {
+  margin-right: 0;
+}
+
+<div
+  className="c0"
+>
+  <span>
+    left
+  </span>
+  <hr
+    className="c1"
+  />
+  <span>
+    right
+  </span>
+</div>
+`;
+
+exports[`ui-elements-layout Components HorizontalDivider Should render with default state 1`] = `
+.c1 {
+  border: none;
+  border-bottom: 1px solid;
+  color: #divider_inverted;
+  width: auto;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 > hr {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  height: 0;
+  margin: 0 20px;
+}
+
+.c0 > *:first-child {
+  margin-left: 0;
+}
+
+.c0 > *:last-child {
+  margin-right: 0;
+}
+
+<div
+  className="c0"
+>
+  <hr
+    className="c1"
+  />
+</div>
+`;
+
+exports[`ui-elements-layout Components HorizontalDivider Should render with starting and ending rules 1`] = `
+.c1 {
+  border: none;
+  border-bottom: 1px solid;
+  color: #divider_inverted;
+  width: auto;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 > hr {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  height: 0;
+  margin: 0 20px;
+}
+
+.c0 > *:first-child {
+  margin-left: 0;
+}
+
+.c0 > *:last-child {
+  margin-right: 0;
+}
+
+<div
+  className="c0"
+>
+  <hr
+    className="c1"
+  />
+  <span>
+    left
+  </span>
+  <hr
+    className="c1"
+  />
+  <span>
+    center
+  </span>
+  <hr
+    className="c1"
+  />
+  <span>
+    right
+  </span>
+  <hr
+    className="c1"
+  />
+</div>
+`;

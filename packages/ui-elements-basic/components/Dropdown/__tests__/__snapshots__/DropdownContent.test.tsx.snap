@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-basic Components DropdownContent should render (opened: false) 1`] = `
+<div
+  className="DropdownContent left"
+  onBlur={[MockFunction]}
+  onFocus={[MockFunction]}
+  onMouseDown={[MockFunction]}
+  onMouseEnter={[MockFunction]}
+  onMouseLeave={[MockFunction]}
+>
+  <div />
+</div>
+`;
+
+exports[`ui-elements-basic Components DropdownContent should render (opened: true) 1`] = `
+<div
+  className="DropdownContent left opened"
+  onBlur={[MockFunction]}
+  onFocus={[MockFunction]}
+  onMouseDown={[MockFunction]}
+  onMouseEnter={[MockFunction]}
+  onMouseLeave={[MockFunction]}
+>
+  <div />
+</div>
+`;

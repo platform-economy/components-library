@@ -1,0 +1,2108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-basic Components TagsInput should render options list with no tags 1`] = `
+.c0 {
+  position: relative;
+  display: inline-block;
+}
+
+.c0.mobile {
+  display: block;
+}
+
+.c0 .c1 .inlineWrapper {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  cursor: pointer;
+}
+
+.c0 .c1 .cover {
+  -webkit-flex: 1 1 0px;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0px;
+}
+
+.c0 .c1 .icon {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-left: 1em;
+}
+
+.c0.mobile .c1 {
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0.drop-on-hover .c1 {
+  cursor: default;
+}
+
+.c0 .c3 {
+  position: absolute;
+  overflow: hidden;
+  -webkit-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: top;
+  -ms-transform-origin: top;
+  transform-origin: top;
+  -webkit-transition: -webkit-transform 0.26s,max-height 0.26s;
+  -webkit-transition: transform 0.26s,max-height 0.26s;
+  transition: transform 0.26s,max-height 0.26s;
+}
+
+.c0 .c3.left {
+  left: 0;
+}
+
+.c0 .c3.right {
+  right: 0;
+}
+
+.c0 .c3.center {
+  left: 50%;
+  -webkit-transform: scaleY(0) translateX(-50%);
+  -ms-transform: scaleY(0) translateX(-50%);
+  transform: scaleY(0) translateX(-50%);
+}
+
+.c0 .c3.justify {
+  left: 0;
+  right: 0;
+}
+
+.c0 .c3.opened {
+  -webkit-transform: scaleY(1);
+  -ms-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+.c0 .c3.opened.center {
+  -webkit-transform: scaleY(1) translateX(-50%);
+  -ms-transform: scaleY(1) translateX(-50%);
+  transform: scaleY(1) translateX(-50%);
+}
+
+.c0.mobile .c3 {
+  position: relative;
+  max-height: 0;
+  width: 100%;
+}
+
+.c0.mobile .c3.opened {
+  max-height: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  min-height: 35px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.23);
+  background-color: #foreground;
+  color: #text;
+  cursor: text;
+  border: none;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 25px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  box-sizing: border-box;
+  border-bottom: 2px solid transparent;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: auto;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100%;
+}
+
+.c2:invalid {
+  border-bottom: 2px solid #negative;
+  outline: transparent;
+}
+
+.c2 li {
+  margin-left: .5em;
+  margin-top: 2px;
+  list-style-type: none;
+}
+
+.c2 > input {
+  background: transparent;
+  color: #text;
+  border: none;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 0 .5em;
+  margin-top: 2px;
+  min-height: 26px;
+}
+
+.c2 > input:focus {
+  border: none;
+  outline: none;
+}
+
+.c2:invalid {
+  border-bottom: 2px solid #negative;
+  outline: transparent;
+}
+
+.c2.hasFocus {
+  border-bottom: 2px solid #active;
+}
+
+.c2.invalid {
+  border-bottom: 2px solid #negative;
+}
+
+.c2 > .clearBtn {
+  font-size: 1em;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  color: #text_inverted;
+  pointer-events: none;
+  opacity: 0;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.c2 > .clearBtn.clearVisible {
+  cursor: pointer;
+  top: 8px;
+  right: 10px;
+  opacity: 1;
+  pointer-events: auto;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.c2 .clearBtn:hover {
+  color: #text;
+}
+
+.c2 .clearBtn:active {
+  color: #active_lowered;
+}
+
+.c2 div.DropdownContent {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.23);
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  min-height: 35px;
+  width: 100%;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.23);
+  background-color: #surface;
+  color: #text;
+  cursor: text;
+  border: none;
+  margin: 0;
+  padding: .2em;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: auto;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c4 li {
+  margin-left: .5em;
+  margin-top: 2px;
+  list-style-type: none;
+}
+
+.c4 .c5 {
+  margin-left: auto;
+  padding: 5px;
+  min-height: 25px;
+}
+
+.c4 span.noTagsMsg {
+  color: #text;
+  margin-left: 1em;
+  font-size: .75em;
+}
+
+.c4 .loadingSpinner {
+  margin: 2px;
+}
+
+@media screen and (min-width:414px) {
+  .c2 > input::-webkit-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c2 > input::-moz-placeholder {
+    font-size: .875em;
+  }
+
+  .c2 > input:-ms-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c2 > input::-webkit-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c2 > input::-moz-placeholder {
+    font-size: .875em;
+  }
+
+  .c2 > input:-ms-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c2 > input::placeholder {
+    font-size: .875em;
+  }
+}
+
+<div
+  className="Dropdown TagsInput c0"
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <div
+    className="DropdownCover c1 "
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={Object {}}
+  >
+    <div
+      className="cover"
+    >
+      <ul
+        className="TagsInput c2"
+        onClick={[Function]}
+      >
+        <input
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          type="text"
+          value=""
+        />
+      </ul>
+    </div>
+  </div>
+  <div
+    className="DropdownContent c3 justify"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onMouseDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <ul
+      className="c4"
+    >
+      <span
+        className="noTagsMsg"
+      />
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`ui-elements-basic Components TagsInput should render tags list with no tags 1`] = `
+.c0 {
+  position: relative;
+  display: inline-block;
+}
+
+.c0.mobile {
+  display: block;
+}
+
+.c0 .c1 .inlineWrapper {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  cursor: pointer;
+}
+
+.c0 .c1 .cover {
+  -webkit-flex: 1 1 0px;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0px;
+}
+
+.c0 .c1 .icon {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-left: 1em;
+}
+
+.c0.mobile .c1 {
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0.drop-on-hover .c1 {
+  cursor: default;
+}
+
+.c0 .c3 {
+  position: absolute;
+  overflow: hidden;
+  -webkit-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: top;
+  -ms-transform-origin: top;
+  transform-origin: top;
+  -webkit-transition: -webkit-transform 0.26s,max-height 0.26s;
+  -webkit-transition: transform 0.26s,max-height 0.26s;
+  transition: transform 0.26s,max-height 0.26s;
+}
+
+.c0 .c3.left {
+  left: 0;
+}
+
+.c0 .c3.right {
+  right: 0;
+}
+
+.c0 .c3.center {
+  left: 50%;
+  -webkit-transform: scaleY(0) translateX(-50%);
+  -ms-transform: scaleY(0) translateX(-50%);
+  transform: scaleY(0) translateX(-50%);
+}
+
+.c0 .c3.justify {
+  left: 0;
+  right: 0;
+}
+
+.c0 .c3.opened {
+  -webkit-transform: scaleY(1);
+  -ms-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+.c0 .c3.opened.center {
+  -webkit-transform: scaleY(1) translateX(-50%);
+  -ms-transform: scaleY(1) translateX(-50%);
+  transform: scaleY(1) translateX(-50%);
+}
+
+.c0.mobile .c3 {
+  position: relative;
+  max-height: 0;
+  width: 100%;
+}
+
+.c0.mobile .c3.opened {
+  max-height: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  min-height: 35px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.23);
+  background-color: #foreground;
+  color: #text;
+  cursor: text;
+  border: none;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 25px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  box-sizing: border-box;
+  border-bottom: 2px solid transparent;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: auto;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100%;
+}
+
+.c2:invalid {
+  border-bottom: 2px solid #negative;
+  outline: transparent;
+}
+
+.c2 li {
+  margin-left: .5em;
+  margin-top: 2px;
+  list-style-type: none;
+}
+
+.c2 > input {
+  background: transparent;
+  color: #text;
+  border: none;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 0 .5em;
+  margin-top: 2px;
+  min-height: 26px;
+}
+
+.c2 > input:focus {
+  border: none;
+  outline: none;
+}
+
+.c2:invalid {
+  border-bottom: 2px solid #negative;
+  outline: transparent;
+}
+
+.c2.hasFocus {
+  border-bottom: 2px solid #active;
+}
+
+.c2.invalid {
+  border-bottom: 2px solid #negative;
+}
+
+.c2 > .clearBtn {
+  font-size: 1em;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  color: #text_inverted;
+  pointer-events: none;
+  opacity: 0;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.c2 > .clearBtn.clearVisible {
+  cursor: pointer;
+  top: 8px;
+  right: 10px;
+  opacity: 1;
+  pointer-events: auto;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.c2 .clearBtn:hover {
+  color: #text;
+}
+
+.c2 .clearBtn:active {
+  color: #active_lowered;
+}
+
+.c2 div.DropdownContent {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.23);
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  min-height: 1em;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.23);
+  background-color: #surface;
+  color: #text;
+  cursor: pointer;
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  overflow: auto;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c4 li {
+  width: 100%;
+  min-height: 1em;
+  padding: 0;
+  line-height: 2em;
+  box-sizing: border-box;
+}
+
+.c4 span.noTagsMsg {
+  color: #text;
+  font-size: .875em;
+  margin-left: .75em;
+  line-height: 2em;
+}
+
+@media screen and (min-width:414px) {
+  .c2 > input::-webkit-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c2 > input::-moz-placeholder {
+    font-size: .875em;
+  }
+
+  .c2 > input:-ms-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c2 > input::-webkit-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c2 > input::-moz-placeholder {
+    font-size: .875em;
+  }
+
+  .c2 > input:-ms-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c2 > input::placeholder {
+    font-size: .875em;
+  }
+}
+
+<div
+  className="Dropdown TagsInput c0"
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <div
+    className="DropdownCover c1 "
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={Object {}}
+  >
+    <div
+      className="cover"
+    >
+      <ul
+        className="TagsInput c2"
+        onClick={[Function]}
+      >
+        <input
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          type="text"
+          value=""
+        />
+      </ul>
+    </div>
+  </div>
+  <div
+    className="DropdownContent c3 justify"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onMouseDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <ul
+      className="c4"
+    >
+      <span
+        className="noTagsMsg"
+      />
+      <span />
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`ui-elements-basic Components TagsInput should render with default state 1`] = `
+.c6 {
+  min-height: 1.25em;
+  padding: 0.125em 1em;
+  background: #foreground;
+  color: #text;
+  border: none;
+  line-height: 1.25em;
+  border-radius: .75em;
+  list-style-type: none;
+  font-weight: normal;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.c6 > span,
+.c6 div,
+.c6 i,
+.c6 a {
+  font-size: .75em;
+}
+
+.c6:hover {
+  color: #text_highlight;
+  background: #active_hovered;
+}
+
+.c6:active {
+  color: #text_highlight;
+  background: #active_lowered;
+}
+
+.c6:focus {
+  color: #text_highlight;
+  background: #active_hovered;
+  border: none;
+  outline: transparent;
+}
+
+.c0 {
+  position: relative;
+  display: inline-block;
+}
+
+.c0.mobile {
+  display: block;
+}
+
+.c0 .c1 .inlineWrapper {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  cursor: pointer;
+}
+
+.c0 .c1 .cover {
+  -webkit-flex: 1 1 0px;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0px;
+}
+
+.c0 .c1 .icon {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-left: 1em;
+}
+
+.c0.mobile .c1 {
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0.drop-on-hover .c1 {
+  cursor: default;
+}
+
+.c0 .c3 {
+  position: absolute;
+  overflow: hidden;
+  -webkit-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: top;
+  -ms-transform-origin: top;
+  transform-origin: top;
+  -webkit-transition: -webkit-transform 0.26s,max-height 0.26s;
+  -webkit-transition: transform 0.26s,max-height 0.26s;
+  transition: transform 0.26s,max-height 0.26s;
+}
+
+.c0 .c3.left {
+  left: 0;
+}
+
+.c0 .c3.right {
+  right: 0;
+}
+
+.c0 .c3.center {
+  left: 50%;
+  -webkit-transform: scaleY(0) translateX(-50%);
+  -ms-transform: scaleY(0) translateX(-50%);
+  transform: scaleY(0) translateX(-50%);
+}
+
+.c0 .c3.justify {
+  left: 0;
+  right: 0;
+}
+
+.c0 .c3.opened {
+  -webkit-transform: scaleY(1);
+  -ms-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+.c0 .c3.opened.center {
+  -webkit-transform: scaleY(1) translateX(-50%);
+  -ms-transform: scaleY(1) translateX(-50%);
+  transform: scaleY(1) translateX(-50%);
+}
+
+.c0.mobile .c3 {
+  position: relative;
+  max-height: 0;
+  width: 100%;
+}
+
+.c0.mobile .c3.opened {
+  max-height: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  min-height: 35px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.23);
+  background-color: #foreground;
+  color: #text;
+  cursor: text;
+  border: none;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 25px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  box-sizing: border-box;
+  border-bottom: 2px solid transparent;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: auto;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100%;
+}
+
+.c2:invalid {
+  border-bottom: 2px solid #negative;
+  outline: transparent;
+}
+
+.c2 li {
+  margin-left: .5em;
+  margin-top: 2px;
+  list-style-type: none;
+}
+
+.c2 > input {
+  background: transparent;
+  color: #text;
+  border: none;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 0 .5em;
+  margin-top: 2px;
+  min-height: 26px;
+}
+
+.c2 > input:focus {
+  border: none;
+  outline: none;
+}
+
+.c2:invalid {
+  border-bottom: 2px solid #negative;
+  outline: transparent;
+}
+
+.c2.hasFocus {
+  border-bottom: 2px solid #active;
+}
+
+.c2.invalid {
+  border-bottom: 2px solid #negative;
+}
+
+.c2 > .clearBtn {
+  font-size: 1em;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  color: #text_inverted;
+  pointer-events: none;
+  opacity: 0;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.c2 > .clearBtn.clearVisible {
+  cursor: pointer;
+  top: 8px;
+  right: 10px;
+  opacity: 1;
+  pointer-events: auto;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.c2 .clearBtn:hover {
+  color: #text;
+}
+
+.c2 .clearBtn:active {
+  color: #active_lowered;
+}
+
+.c2 div.DropdownContent {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.23);
+}
+
+.c9 {
+  font-size: .75em;
+  font-weight: bold;
+  outline: none;
+  text-align: center;
+  vertical-align: middle;
+  min-height: 35px;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 30px;
+  -webkit-transition: 100ms all ease-in-out;
+  transition: 100ms all ease-in-out;
+  white-space: nowrap;
+}
+
+.c9::-moz-focus-inner {
+  border: 0;
+}
+
+.c9 .icon-left {
+  margin: 0 5px 0 0;
+}
+
+.c9 .icon-right {
+  margin: 0 0 0 5px;
+}
+
+.c8 {
+  color: #text_inverted;
+  background-color: transparent;
+}
+
+.c8:hover,
+.c8:focus {
+  color: #text;
+  cursor: pointer;
+}
+
+.c8:active {
+  color: #active_lowered;
+}
+
+.c8:disabled {
+  color: #inactive;
+  cursor: not-allowed;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  min-height: 35px;
+  width: 100%;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.23);
+  background-color: #surface;
+  color: #text;
+  cursor: text;
+  border: none;
+  margin: 0;
+  padding: .2em;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: auto;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c4 li {
+  margin-left: .5em;
+  margin-top: 2px;
+  list-style-type: none;
+}
+
+.c4 .c7 {
+  margin-left: auto;
+  padding: 5px;
+  min-height: 25px;
+}
+
+.c4 span.noTagsMsg {
+  color: #text;
+  margin-left: 1em;
+  font-size: .75em;
+}
+
+.c4 .loadingSpinner {
+  margin: 2px;
+}
+
+.c5 {
+  list-style-type: none;
+}
+
+@media screen and (min-width:414px) {
+  .c2 > input::-webkit-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c2 > input::-moz-placeholder {
+    font-size: .875em;
+  }
+
+  .c2 > input:-ms-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c2 > input::-webkit-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c2 > input::-moz-placeholder {
+    font-size: .875em;
+  }
+
+  .c2 > input:-ms-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c2 > input::placeholder {
+    font-size: .875em;
+  }
+}
+
+<div
+  className="Dropdown TagsInput c0"
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <div
+    className="DropdownCover c1 "
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={Object {}}
+  >
+    <div
+      className="cover"
+    >
+      <ul
+        className="TagsInput c2"
+        onClick={[Function]}
+      >
+        <input
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          type="text"
+          value=""
+        />
+      </ul>
+    </div>
+  </div>
+  <div
+    className="DropdownContent c3 justify"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onMouseDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <ul
+      className="c4"
+    >
+      <li
+        className="c5"
+      >
+        <button
+          className="Tag c6"
+          onClick={[Function]}
+          selected={false}
+          title="test"
+        >
+          <span>
+            test
+          </span>
+        </button>
+      </li>
+      <span
+        className="noTagsMsg"
+      />
+      <button
+        className="c7 c8 c9"
+        onClick={[Function]}
+      >
+        Select All
+      </button>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`ui-elements-basic Components TagsInput should render with optionsList 1`] = `
+.c0 {
+  position: relative;
+  display: inline-block;
+}
+
+.c0.mobile {
+  display: block;
+}
+
+.c0 .c1 .inlineWrapper {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  cursor: pointer;
+}
+
+.c0 .c1 .cover {
+  -webkit-flex: 1 1 0px;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0px;
+}
+
+.c0 .c1 .icon {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-left: 1em;
+}
+
+.c0.mobile .c1 {
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0.drop-on-hover .c1 {
+  cursor: default;
+}
+
+.c0 .c3 {
+  position: absolute;
+  overflow: hidden;
+  -webkit-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: top;
+  -ms-transform-origin: top;
+  transform-origin: top;
+  -webkit-transition: -webkit-transform 0.26s,max-height 0.26s;
+  -webkit-transition: transform 0.26s,max-height 0.26s;
+  transition: transform 0.26s,max-height 0.26s;
+}
+
+.c0 .c3.left {
+  left: 0;
+}
+
+.c0 .c3.right {
+  right: 0;
+}
+
+.c0 .c3.center {
+  left: 50%;
+  -webkit-transform: scaleY(0) translateX(-50%);
+  -ms-transform: scaleY(0) translateX(-50%);
+  transform: scaleY(0) translateX(-50%);
+}
+
+.c0 .c3.justify {
+  left: 0;
+  right: 0;
+}
+
+.c0 .c3.opened {
+  -webkit-transform: scaleY(1);
+  -ms-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+.c0 .c3.opened.center {
+  -webkit-transform: scaleY(1) translateX(-50%);
+  -ms-transform: scaleY(1) translateX(-50%);
+  transform: scaleY(1) translateX(-50%);
+}
+
+.c0.mobile .c3 {
+  position: relative;
+  max-height: 0;
+  width: 100%;
+}
+
+.c0.mobile .c3.opened {
+  max-height: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  min-height: 35px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.23);
+  background-color: #foreground;
+  color: #text;
+  cursor: text;
+  border: none;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 25px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  box-sizing: border-box;
+  border-bottom: 2px solid transparent;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: auto;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100%;
+}
+
+.c2:invalid {
+  border-bottom: 2px solid #negative;
+  outline: transparent;
+}
+
+.c2 li {
+  margin-left: .5em;
+  margin-top: 2px;
+  list-style-type: none;
+}
+
+.c2 > input {
+  background: transparent;
+  color: #text;
+  border: none;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 0 .5em;
+  margin-top: 2px;
+  min-height: 26px;
+}
+
+.c2 > input:focus {
+  border: none;
+  outline: none;
+}
+
+.c2:invalid {
+  border-bottom: 2px solid #negative;
+  outline: transparent;
+}
+
+.c2.hasFocus {
+  border-bottom: 2px solid #active;
+}
+
+.c2.invalid {
+  border-bottom: 2px solid #negative;
+}
+
+.c2 > .clearBtn {
+  font-size: 1em;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  color: #text_inverted;
+  pointer-events: none;
+  opacity: 0;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.c2 > .clearBtn.clearVisible {
+  cursor: pointer;
+  top: 8px;
+  right: 10px;
+  opacity: 1;
+  pointer-events: auto;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.c2 .clearBtn:hover {
+  color: #text;
+}
+
+.c2 .clearBtn:active {
+  color: #active_lowered;
+}
+
+.c2 div.DropdownContent {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.23);
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  min-height: 1em;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.23);
+  background-color: #surface;
+  color: #text;
+  cursor: pointer;
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  overflow: auto;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c4 li {
+  width: 100%;
+  min-height: 1em;
+  padding: 0;
+  line-height: 2em;
+  box-sizing: border-box;
+}
+
+.c4 span.noTagsMsg {
+  color: #text;
+  font-size: .875em;
+  margin-left: .75em;
+  line-height: 2em;
+}
+
+.c5 {
+  min-height: 1.25em;
+  color: #text;
+  line-height: 1.25em;
+  list-style-type: none;
+  font-weight: normal;
+  font-size: .875em;
+  text-align: center;
+  border-left: 2px solid transparent;
+}
+
+.c5:hover {
+  background: #midground;
+  border-left: 2px solid #active;
+}
+
+.c5:active {
+  color: #text_highlight;
+  background: #active_lowered;
+}
+
+.c5 span {
+  padding-left: 1em;
+}
+
+.c5 button {
+  background: none;
+  outline: none;
+  border: none;
+  padding: 0;
+  color: #text;
+}
+
+.c5:focus-within {
+  background-color: #active_hovered;
+}
+
+.c5 .loadingSpinner {
+  display: inline;
+  padding: 2px;
+}
+
+@media screen and (min-width:414px) {
+  .c2 > input::-webkit-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c2 > input::-moz-placeholder {
+    font-size: .875em;
+  }
+
+  .c2 > input:-ms-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c2 > input::-webkit-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c2 > input::-moz-placeholder {
+    font-size: .875em;
+  }
+
+  .c2 > input:-ms-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c2 > input::placeholder {
+    font-size: .875em;
+  }
+}
+
+<div
+  className="Dropdown TagsInput c0"
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <div
+    className="DropdownCover c1 "
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={Object {}}
+  >
+    <div
+      className="cover"
+    >
+      <ul
+        className="TagsInput c2"
+        onClick={[Function]}
+      >
+        <input
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          type="text"
+          value=""
+        />
+      </ul>
+    </div>
+  </div>
+  <div
+    className="DropdownContent c3 justify"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onMouseDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <ul
+      className="c4"
+    >
+      <li
+        className="c5"
+        onClick={[Function]}
+      >
+        <button>
+          test
+        </button>
+      </li>
+      <span
+        className="noTagsMsg"
+      />
+      <span />
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`ui-elements-basic Components TagsInput should render with selected Tags 1`] = `
+.c8 {
+  min-height: 1.25em;
+  padding: 0.125em 1em;
+  background: #foreground;
+  color: #text;
+  border: none;
+  line-height: 1.25em;
+  border-radius: .75em;
+  list-style-type: none;
+  font-weight: normal;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.c8 > span,
+.c8 div,
+.c8 i,
+.c8 a {
+  font-size: .75em;
+}
+
+.c8:hover {
+  color: #text_highlight;
+  background: #active_hovered;
+}
+
+.c8:active {
+  color: #text_highlight;
+  background: #active_lowered;
+}
+
+.c8:focus {
+  color: #text_highlight;
+  background: #active_hovered;
+  border: none;
+  outline: transparent;
+}
+
+.c4 {
+  min-height: 1.25em;
+  padding: 0.125em 1em;
+  background: #active;
+  color: #text_highlight;
+  border: none;
+  line-height: 1.25em;
+  border-radius: .75em;
+  list-style-type: none;
+  font-weight: normal;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.c4 > span,
+.c4 div,
+.c4 i,
+.c4 a {
+  font-size: .75em;
+}
+
+.c4:hover {
+  color: #text_highlight;
+  background: #active_hovered;
+}
+
+.c4:active {
+  color: #text_highlight;
+  background: #active_lowered;
+}
+
+.c4:focus {
+  color: #text_highlight;
+  background: #active_hovered;
+  border: none;
+  outline: transparent;
+}
+
+.c0 {
+  position: relative;
+  display: inline-block;
+}
+
+.c0.mobile {
+  display: block;
+}
+
+.c0 .c1 .inlineWrapper {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  cursor: pointer;
+}
+
+.c0 .c1 .cover {
+  -webkit-flex: 1 1 0px;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0px;
+}
+
+.c0 .c1 .icon {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-left: 1em;
+}
+
+.c0.mobile .c1 {
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0.drop-on-hover .c1 {
+  cursor: default;
+}
+
+.c0 .c5 {
+  position: absolute;
+  overflow: hidden;
+  -webkit-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: top;
+  -ms-transform-origin: top;
+  transform-origin: top;
+  -webkit-transition: -webkit-transform 0.26s,max-height 0.26s;
+  -webkit-transition: transform 0.26s,max-height 0.26s;
+  transition: transform 0.26s,max-height 0.26s;
+}
+
+.c0 .c5.left {
+  left: 0;
+}
+
+.c0 .c5.right {
+  right: 0;
+}
+
+.c0 .c5.center {
+  left: 50%;
+  -webkit-transform: scaleY(0) translateX(-50%);
+  -ms-transform: scaleY(0) translateX(-50%);
+  transform: scaleY(0) translateX(-50%);
+}
+
+.c0 .c5.justify {
+  left: 0;
+  right: 0;
+}
+
+.c0 .c5.opened {
+  -webkit-transform: scaleY(1);
+  -ms-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+.c0 .c5.opened.center {
+  -webkit-transform: scaleY(1) translateX(-50%);
+  -ms-transform: scaleY(1) translateX(-50%);
+  transform: scaleY(1) translateX(-50%);
+}
+
+.c0.mobile .c5 {
+  position: relative;
+  max-height: 0;
+  width: 100%;
+}
+
+.c0.mobile .c5.opened {
+  max-height: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  min-height: 35px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.23);
+  background-color: #foreground;
+  color: #text;
+  cursor: text;
+  border: none;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 25px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  box-sizing: border-box;
+  border-bottom: 2px solid transparent;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: auto;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100%;
+}
+
+.c2:invalid {
+  border-bottom: 2px solid #negative;
+  outline: transparent;
+}
+
+.c2 li {
+  margin-left: .5em;
+  margin-top: 2px;
+  list-style-type: none;
+}
+
+.c2 > input {
+  background: transparent;
+  color: #text;
+  border: none;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 0 .5em;
+  margin-top: 2px;
+  min-height: 26px;
+}
+
+.c2 > input:focus {
+  border: none;
+  outline: none;
+}
+
+.c2:invalid {
+  border-bottom: 2px solid #negative;
+  outline: transparent;
+}
+
+.c2.hasFocus {
+  border-bottom: 2px solid #active;
+}
+
+.c2.invalid {
+  border-bottom: 2px solid #negative;
+}
+
+.c2 > .clearBtn {
+  font-size: 1em;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  color: #text_inverted;
+  pointer-events: none;
+  opacity: 0;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.c2 > .clearBtn.clearVisible {
+  cursor: pointer;
+  top: 8px;
+  right: 10px;
+  opacity: 1;
+  pointer-events: auto;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.c2 .clearBtn:hover {
+  color: #text;
+}
+
+.c2 .clearBtn:active {
+  color: #active_lowered;
+}
+
+.c2 div.DropdownContent {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.23);
+}
+
+.c3 {
+  list-style-type: none;
+}
+
+.c11 {
+  font-size: .75em;
+  font-weight: bold;
+  outline: none;
+  text-align: center;
+  vertical-align: middle;
+  min-height: 35px;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 30px;
+  -webkit-transition: 100ms all ease-in-out;
+  transition: 100ms all ease-in-out;
+  white-space: nowrap;
+}
+
+.c11::-moz-focus-inner {
+  border: 0;
+}
+
+.c11 .icon-left {
+  margin: 0 5px 0 0;
+}
+
+.c11 .icon-right {
+  margin: 0 0 0 5px;
+}
+
+.c10 {
+  color: #text_inverted;
+  background-color: transparent;
+}
+
+.c10:hover,
+.c10:focus {
+  color: #text;
+  cursor: pointer;
+}
+
+.c10:active {
+  color: #active_lowered;
+}
+
+.c10:disabled {
+  color: #inactive;
+  cursor: not-allowed;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  min-height: 35px;
+  width: 100%;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.23);
+  background-color: #surface;
+  color: #text;
+  cursor: text;
+  border: none;
+  margin: 0;
+  padding: .2em;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: auto;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c6 li {
+  margin-left: .5em;
+  margin-top: 2px;
+  list-style-type: none;
+}
+
+.c6 .c9 {
+  margin-left: auto;
+  padding: 5px;
+  min-height: 25px;
+}
+
+.c6 span.noTagsMsg {
+  color: #text;
+  margin-left: 1em;
+  font-size: .75em;
+}
+
+.c6 .loadingSpinner {
+  margin: 2px;
+}
+
+.c7 {
+  list-style-type: none;
+}
+
+@media screen and (min-width:414px) {
+  .c2 > input::-webkit-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c2 > input::-moz-placeholder {
+    font-size: .875em;
+  }
+
+  .c2 > input:-ms-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c2 > input::-webkit-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c2 > input::-moz-placeholder {
+    font-size: .875em;
+  }
+
+  .c2 > input:-ms-input-placeholder {
+    font-size: .875em;
+  }
+
+  .c2 > input::placeholder {
+    font-size: .875em;
+  }
+}
+
+<div
+  className="Dropdown TagsInput c0"
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <div
+    className="DropdownCover c1 "
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={Object {}}
+  >
+    <div
+      className="cover"
+    >
+      <ul
+        className="TagsInput c2"
+        onClick={[Function]}
+      >
+        <li
+          className="c3"
+        >
+          <button
+            className="Tag c4"
+            onClick={[Function]}
+            selected={true}
+            title="test"
+          >
+            <span>
+              test
+            </span>
+            <span
+              className="removeIcon"
+            >
+               
+            </span>
+          </button>
+        </li>
+        <input
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          type="text"
+          value=""
+        />
+      </ul>
+    </div>
+  </div>
+  <div
+    className="DropdownContent c5 justify"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onMouseDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <ul
+      className="c6"
+    >
+      <li
+        className="c7"
+      >
+        <button
+          className="Tag c8"
+          onClick={[Function]}
+          selected={false}
+          title="test"
+        >
+          <span>
+            test
+          </span>
+        </button>
+      </li>
+      <span
+        className="noTagsMsg"
+      />
+      <button
+        className="c9 c10 c11"
+        onClick={[Function]}
+      >
+        Select All
+      </button>
+    </ul>
+  </div>
+</div>
+`;

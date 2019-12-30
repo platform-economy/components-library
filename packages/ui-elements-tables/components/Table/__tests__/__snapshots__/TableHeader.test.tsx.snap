@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-tables Components TableHeader Should render without throwing an exception 1`] = `
+.c0 {
+  background-color: #foreground;
+  font-size: .875em;
+}
+
+<thead
+  className="c0"
+/>
+`;

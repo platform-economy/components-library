@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-navigation Components TabNav should render with two children with one of them active 1`] = `
+.c1 {
+  color: #text;
+  min-height: 1.25em;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  -webkit-letter-spacing: -0.38px;
+  -moz-letter-spacing: -0.38px;
+  -ms-letter-spacing: -0.38px;
+  letter-spacing: -0.38px;
+  text-align: center;
+  padding: 10px 45px;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+}
+
+.c1.active {
+  font-weight: bold;
+  color: #active_lowered;
+}
+
+.c1.disabled {
+  color: #inactive;
+  cursor: not-allowed;
+}
+
+.c1:hover:not(.disabled):not(.active) {
+  color: #active_hovered;
+  border-bottom: 3px solid #active_hovered;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: auto;
+  padding: 0;
+  list-style-type: none;
+  border-bottom: 1px solid #foreground;
+}
+
+.c0:after {
+  content: '';
+  border-bottom: 3px solid #active_lowered;
+  position: absolute;
+  width: 0px;
+  top: -3px;
+  left: 0px;
+  -webkit-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+}
+
+<ul
+  className="c0"
+>
+  <li
+    className="active c1"
+  >
+    Test Tab
+  </li>
+  <li
+    className="c1"
+  >
+    Test Tab 2
+  </li>
+</ul>
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui-elements-core utils WithI18nContext should render component with I18N context correctly 1`] = `
+<div>
+  <div>
+    Test Component
+  </div>
+</div>
+`;
