@@ -141,7 +141,10 @@
     "moduleNameMapper": {
       "\\.(css|less|scss|jpg|png|svg|gif)$": "identity-obj-proxy"
     },
-    "testPathIgnorePatterns": [ "packages/test-helpers", "/node_modules/" ],
+    "testPathIgnorePatterns": [
+      "packages/test-helpers",
+      "/node_modules/"
+    ],
     "coverageDirectory": "coverage",
     "collectCoverageFrom": [
       "packages/**/*.{ts,tsx,js,jsx}",
